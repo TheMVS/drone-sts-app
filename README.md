@@ -10,8 +10,8 @@ Funciona en cualquier dispositivo con navegador (móvil, tablet, ordenador) y co
 
 ## Qué contiene
 
-- **1297 preguntas tipo test**, cada una con 4 opciones, respuesta correcta, explicación y fuente citada.
-- **610 conceptos únicos** — muchas preguntas son variantes parafraseadas de un mismo concepto, para practicar reconociéndolo con distintas redacciones (como en el examen real).
+- **1386 preguntas tipo test**, cada una con 4 opciones, respuesta correcta, explicación y fuente citada.
+- **610+ conceptos únicos** — muchas preguntas son variantes parafraseadas de un mismo concepto, para practicar reconociéndolo con distintas redacciones (como en el examen real).
 - Cobertura completa de las **8 materias del temario oficial de AESA** para el examen de categoría específica (Ed. 2, 17/04/2023):
   1. Reglamentación de la aviación (categoría específica, SORA/PDRA, escenarios estándar, espacio aéreo, información aeronáutica)
   2. Limitaciones del rendimiento humano
@@ -22,7 +22,9 @@ Funciona en cualquier dispositivo con navegador (móvil, tablet, ordenador) y co
   7. Rendimiento de vuelo del UAS
   8. Mitigaciones técnicas y operacionales del riesgo en tierra
 - Contenido adicional de **categoría abierta (A1/A2/A3)**, **PDRA** (S01, S02, G01, G02), **LUC y clubes de aeromodelismo**, **Reglamento (UE) 2019/945** (marcado CE, evaluación de conformidad) y glosario de definiciones EASA.
-- Un **set de examen fijo** de 52 preguntas ("Banco UAS 1-52"), transcrito de un banco de preguntas de estudio, seleccionable aparte para hacer un simulacro cerrado idéntico a ese banco.
+- Dos **sets de examen fijos**, seleccionables aparte para hacer un simulacro cerrado idéntico a esos bancos:
+  - **Banco UAS 1-52**: 52 preguntas transcritas de un banco de preguntas de estudio.
+  - **Banco Droniteca 1-89**: 89 preguntas transcritas del banco de preguntas STS de Droniteca.com, con las respuestas correctas señaladas en su documento de soluciones.
 
 ### Preguntas por tema
 
@@ -40,6 +42,7 @@ Funciona en cualquier dispositivo con navegador (móvil, tablet, ordenador) y co
 | SORA y PDRA | 59 |
 | STS-02 | 59 |
 | Banco UAS 1-52 (set de examen) | 52 |
+| Banco Droniteca 1-89 (set de examen) | 89 |
 | Mitigaciones de riesgo | 46 |
 | Categoría abierta - general | 46 |
 | Comunicaciones y observadores | 42 |
@@ -61,7 +64,7 @@ Funciona en cualquier dispositivo con navegador (móvil, tablet, ordenador) y co
 | Dificultad | Preguntas |
 |---|---|
 | Fácil | 201 |
-| Media | 630 |
+| Media | 719 |
 | Difícil | 388 |
 | Muy difícil | 78 |
 
@@ -73,7 +76,7 @@ Funciona en cualquier dispositivo con navegador (móvil, tablet, ordenador) y co
    - **Tema** (o "Todos")
    - **Dificultad** (o "Todas")
    - **Modo**: Normal / Repetir más falladas / No vistas
-   - **Set de examen**: "Mezcla general" (por defecto, usa todo el banco con los filtros anteriores) o "Banco UAS 1-52" (ignora Tema/Dificultad y te examina con esas 52 preguntas fijas, barajadas)
+   - **Set de examen**: "Mezcla general" (por defecto, usa todo el banco con los filtros anteriores), "Banco UAS 1-52" o "Banco Droniteca 1-89" (cada uno ignora Tema/Dificultad y te examina con ese banco fijo, barajado)
    - Casillas de "Evitar repetidas recientes" y "Barajar respuestas"
 3. Pulsa **Generar cuestionario**, responde, y al entregar verás el porcentaje de acierto y la explicación de cada pregunta.
 4. **Ver estadísticas** te muestra tu progreso acumulado por tema y las preguntas que más fallas.
