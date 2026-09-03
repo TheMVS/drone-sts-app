@@ -21163,5 +21163,941 @@
   "explanation": "Un CG demasiado atrasado se asocia principalmente a una reducción de la estabilidad longitudinal, una mayor tendencia al encabritamiento (morro hacia arriba) no deseado, y a una dificultad añadida para recuperar una entrada en pérdida por la menor autoridad del elevador.",
   "source": "FOR-UAS-P01-DT01 / Temario/Syllabus AESA STS (Rendimiento de vuelo — CG y equilibrio de masas)",
   "concept": "reduccion de la estabilidad longitudinal tendencia al encabritamiento no deseado y dificultad para recuperar una entrada en perdida un cg demasiado atrasado se asocia principalmente a una reduccion de la estabilidad longitudinal una mayor tendencia al encabritamiento mo"
+ },
+ {
+  "id": "Q1933",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 1",
+  "difficulty": "Media",
+  "question": "¿Qué partes forman el piloto automático de la aeronave no tripulada?",
+  "options": [
+   "Acelerómetros.",
+   "Acelerómetros, IMU, GPS, sensores.",
+   "Solo GNSS.",
+   "2 IMUS."
+  ],
+  "answer": 1,
+  "explanation": "Un piloto automático/controlador de vuelo de UAS integra sensores de estado y navegación: IMU (con acelerómetros y giróscopos), GNSS/GPS y otros sensores para estimar posición, altitud, orientación, velocidad, etc.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: PX4 User Guide, 'Sensor Hardware & Setup' / 'IMU, AHRS, and INS'",
+  "concept": "acelerometros imu gps sensores un piloto automatico controlador de vuelo de uas integra sensores de estado y navegacion imu con acelerometros y giroscopos gnss gps y o",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1934",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 2",
+  "difficulty": "Media",
+  "question": "¿Cuál de las siguientes acciones NO tiene que realizar el piloto de una aeronave no tripulada durante el vuelo?",
+  "options": [
+   "Publicar un NOTAM si prevé excederse del área de operación.",
+   "Gestionar el combustible (carga de batería consumida y restante).",
+   "Vigilar la evolución de las condiciones meteorológicas.",
+   "Comprobar los datos de telemetría y avisos o alertas."
+  ],
+  "answer": 0,
+  "explanation": "Durante el vuelo el piloto debe vigilar la aeronave, los datos del sistema, la autonomía y las condiciones de operación. Publicar un NOTAM no es una acción normal del piloto durante el vuelo; corresponde al circuito de información aeronáutica/operador/autoridad, según proceda.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS, UAS.STS-02.040; ENAIRE, NOTAM",
+  "concept": "publicar un notam si preve excederse del area de operacion durante el vuelo el piloto debe vigilar la aeronave los datos del sistema la autonomia y las condiciones de operacion publicar un notam n",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1935",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 3",
+  "difficulty": "Media",
+  "question": "Un parte meteorológico indica un viento de 060/15kt. ¿De qué dirección procede el viento?",
+  "options": [
+   "Noroeste",
+   "Suroeste",
+   "Noreste",
+   "Sureste"
+  ],
+  "answer": 2,
+  "explanation": "En los partes aeronáuticos, la dirección del viento indica de dónde sopla. 060/15 kt significa viento procedente de 060 grados, es decir, del noreste, a 15 kt.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: SKYbrary, 'Meteorological Aerodrome Report (METAR)'",
+  "concept": "noreste en los partes aeronauticos la direccion del viento indica de donde sopla 060 15 kt significa viento procedente de 060 grados es decir de",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1936",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 4",
+  "difficulty": "Media",
+  "question": "¿Qué \"efectos\" puede provocar la corriente eléctrica?",
+  "options": [
+   "Enfriamiento de los equipos mecánicos.",
+   "Calentamiento, efecto magnético y efecto químico.",
+   "Enfriamiento de los equipos eléctricos.",
+   "Aerodinámica deficiente."
+  ],
+  "answer": 1,
+  "explanation": "Los efectos clásicos de la corriente eléctrica incluyen efecto térmico (calentamiento), magnético y químico.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Referencia técnica general de electricidad",
+  "concept": "calentamiento efecto magnetico y efecto quimico los efectos clasicos de la corriente electrica incluyen efecto termico calentamiento magnetico y quimico",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1937",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 5",
+  "difficulty": "Media",
+  "question": "Las modificaciones temporales del AIP se publican mediante:",
+  "options": [
+   "Boletines de actualización",
+   "Solo NOTAM",
+   "Solo SUP AIP.",
+   "Un NOTAM y/o SUP AIP"
+  ],
+  "answer": 3,
+  "explanation": "Las modificaciones temporales de la información AIP pueden comunicarse mediante SUP AIP cuando son de larga duración o requieren texto/gráficos extensos, y mediante NOTAM cuando son temporales de menos de tres meses o urgentes.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: ENAIRE AIP, GEN 3.1 y páginas NOTAM/Suplementos",
+  "concept": "un notam y o sup aip las modificaciones temporales de la informacion aip pueden comunicarse mediante sup aip cuando son de larga duracion o requieren texto grafi",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1938",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 6",
+  "difficulty": "Media",
+  "question": "Las comprobaciones que debe realizar el piloto a distancia de una aeronave no tripulada antes del vuelo incluyen, entre otras, las siguientes:",
+  "options": [
+   "Comprobar las licencias de los pilotos a distancia de aeronaves no tripuladas que operan en la zona de operaciones.",
+   "Comprobar los planes de vuelo presentados de las aeronaves comerciales.",
+   "Evaluar las condiciones meteorológicas, como el viento, la temperatura, la visibilidad y las precipitaciones.",
+   "Comprobar si hay turbulencias por encima de 1.000 m."
+  ],
+  "answer": 2,
+  "explanation": "La preparación de la operación incluye obtener e interpretar información meteorológica y evaluar sus efectos sobre la UA, como viento, visibilidad, precipitaciones, etc.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS, temario STS: meteorología y preparación de la operación",
+  "concept": "evaluar las condiciones meteorologicas como el viento la temperatura la visibilidad y las precipitaciones la preparacion de la operacion incluye obtener e interpretar informacion meteorologica y evaluar sus efectos sobre la ua como viento visib",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1939",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 7",
+  "difficulty": "Media",
+  "question": "Un Sistema de Terminación de Vuelo (FTS) tiene que:",
+  "options": [
+   "Apagar el UAS inmediatamente.",
+   "Aumentar el ángulo de impacto.",
+   "Las respuestas b) y c) son correctas.",
+   "Disminuir el ángulo de impacto."
+  ],
+  "answer": 0,
+  "explanation": "Un Flight Termination System es un medio para terminar inmediatamente el vuelo o reducir el efecto sobre terceros; la formulación más correcta entre las opciones es apagar/terminar el UAS inmediatamente.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS, explicación de FTS y requisitos C5/C6",
+  "concept": "apagar el uas inmediatamente un flight termination system es un medio para terminar inmediatamente el vuelo o reducir el efecto sobre terceros la formulacion mas correc",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1940",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 8",
+  "difficulty": "Media",
+  "question": "La reducción del alcohol en la sangre de un individuo:",
+  "options": [
+   "Es más rápida cuando el individuo es consumidor habitual de alcohol.",
+   "Puede acelerarse mediante el consumo de café u otras bebidas que contengan cafeína.",
+   "Puede acelerarse mediante el uso de medicamentos.",
+   "Sólo se consigue con el paso del tiempo."
+  ],
+  "answer": 3,
+  "explanation": "El café, duchas frías u oxígeno no aceleran la eliminación del alcohol; la reducción depende del metabolismo y del paso del tiempo.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: FAA, 'Alcohol and Flying'",
+  "concept": "solo se consigue con el paso del tiempo el cafe duchas frias u oxigeno no aceleran la eliminacion del alcohol la reduccion depende del metabolismo y del paso del tiempo",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1941",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 9",
+  "difficulty": "Media",
+  "question": "El piloto al mando de la aeronave debe informar a los observadores de cualquier desvío de la aeronave respecto a la trayectoria y horarios previstos:",
+  "options": [
+   "Debe informar al observador solo si llueve.",
+   "Debe avisar al observador únicamente si el viento sobrepasa las características de la aeronave.",
+   "No debe informar al observador ya que es su obligación tener a la vista la aeronave en todo momento.",
+   "Siempre debe informar al observador de desviaciones del plan previsto y cambio de horario."
+  ],
+  "answer": 3,
+  "explanation": "En STS-02, si se emplean observadores del espacio aéreo, el piloto remoto debe informarles en tiempo oportuno de cualquier desviación de la trayectoria prevista y de los horarios asociados.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS, UAS.STS-02.040(2)(f)",
+  "concept": "siempre debe informar al observador de desviaciones del plan previsto y cambio de horario en sts 02 si se emplean observadores del espacio aereo el piloto remoto debe informarles en tiempo oportuno de cualquier desviacion de la",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1942",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 10",
+  "difficulty": "Media",
+  "question": "La A de la lista de comprobación \"I'M SAFE\" significa:",
+  "options": [
+   "Alcohol.",
+   "Alarma.",
+   "Asertividad.",
+   "Actividad."
+  ],
+  "answer": 0,
+  "explanation": "En la lista de comprobación I'M SAFE, la A corresponde a Alcohol.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: FAA, 'Pilot's Handbook of Aeronautical Knowledge'",
+  "concept": "alcohol en la lista de comprobacion i m safe la a corresponde a alcohol",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1943",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 11",
+  "difficulty": "Media",
+  "question": "¿Cuál de los siguientes elementos se considera una mercancía peligrosa?",
+  "options": [
+   "Comida.",
+   "Documentación sensible.",
+   "Líquidos inflamables.",
+   "Herramientas mecánicas."
+  ],
+  "answer": 2,
+  "explanation": "Los líquidos inflamables son mercancías peligrosas porque pueden provocar incendios o explosiones durante el transporte o en una operación aérea.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: FAA - PackSafe / Hazardous Materials",
+  "concept": "liquidos inflamables los liquidos inflamables son mercancias peligrosas porque pueden provocar incendios o explosiones durante el transporte o en una operacion a",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1944",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 12",
+  "difficulty": "Media",
+  "question": "¿Qué se debe tener en cuenta a la hora de planificar la duración de vuelo de un UAS en lo relativo a las limitaciones de autonomía?",
+  "options": [
+   "La duración de vuelo planificada puede ser superior a la máxima.",
+   "La duración de vuelo planificada debe ser inferior a la máxima.",
+   "La duración de vuelo planificada puede ser igual a la máxima.",
+   "No se puede aterrizar la aeronave antes de que expire la duración planificada del vuelo."
+  ],
+  "answer": 1,
+  "explanation": "La planificación debe dejar margen de seguridad respecto a la autonomía máxima, ya que el viento, maniobras adicionales, retrasos o un consumo inesperado pueden hacer que el UAS no tenga energía suficiente para terminar el vuelo de forma segura.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS",
+  "concept": "la duracion de vuelo planificada debe ser inferior a la maxima la planificacion debe dejar margen de seguridad respecto a la autonomia maxima ya que el viento maniobras adicionales retrasos o un consu",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1945",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 13",
+  "difficulty": "Media",
+  "question": "Como piloto a distancia, usted tiene la intención de volar un UA multirrotor no cautivo:",
+  "options": [
+   "Puede ser de etiqueta de identificación de clase C5.",
+   "Podría ser de etiqueta de identificación de clase C5 solo si es cautivo.",
+   "No puede ser de etiqueta de identificación de clase C6.",
+   "Podría ser de etiqueta de identificación de clase C6 solo si es cautivo."
+  ],
+  "answer": 0,
+  "explanation": "La clase C5 puede corresponder también a aeronaves no cautivas (a diferencia del ala fija, que solo puede llevar C5 si está anclada). La opción que limita C5 a aeronaves cautivas es incorrecta.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS / Reglamento (UE) 2019/945 y 2019/947",
+  "concept": "puede ser de etiqueta de identificacion de clase c5 la clase c5 puede corresponder tambien a aeronaves no cautivas a diferencia del ala fija que solo puede llevar c5 si esta anclada la opc",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1946",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 14",
+  "difficulty": "Media",
+  "question": "La zona terrestre controlada:",
+  "options": [
+   "Es la proyección del volumen de contingencia sobre la superficie terrestre.",
+   "Es la proyección de la geografía de vuelo sobre la superficie terrestre.",
+   "Es el lugar donde se opera el UAS y dentro del cual el operador del UAS puede garantizar que sólo están presentes las personas participantes.",
+   "Sólo es aplicable a las aeronaves no tripuladas con rotor."
+  ],
+  "answer": 2,
+  "explanation": "La definición normativa de 'controlled ground area' es el área en tierra donde se opera el UAS y en la que el operador puede garantizar que solo hay personas participantes; no es simplemente la proyección del volumen de contingencia ni de la geografía de vuelo por separado.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS, definición de controlled ground area",
+  "concept": "es el lugar donde se opera el uas y dentro del cual el operador del uas puede garantizar que solo estan presentes las personas participantes la definicion normativa de controlled ground area es el area en tierra donde se opera el uas y en la que el operador puede garantizar que",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1947",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 15",
+  "difficulty": "Media",
+  "question": "Una de las clases de estrés es el estrés cognitivo. Los efectos cognitivos pueden identificarse como:",
+  "options": [
+   "Sudoración, bloqueo mental, disociación.",
+   "Trastornos del sueño, aumento de la frecuencia cardiaca y sequedad de boca.",
+   "Olvidos, falta de concentración, dificultad de razonamiento.",
+   "Sudores fríos, temblores, dificultad para respirar."
+  ],
+  "answer": 2,
+  "explanation": "El estrés cognitivo afecta a funciones mentales como memoria, atención, concentración, toma de decisiones y razonamiento; las otras opciones mezclan síntomas físicos o fisiológicos.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Material de factores humanos en formación aeronáutica/UAS",
+  "concept": "olvidos falta de concentracion dificultad de razonamiento el estres cognitivo afecta a funciones mentales como memoria atencion concentracion toma de decisiones y razonamiento las otras opciones",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1948",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 16",
+  "difficulty": "Media",
+  "question": "Si personas no implicadas acceden a la zona controlada durante el vuelo:",
+  "options": [
+   "Se les debe ahuyentar con el UA.",
+   "El piloto a distancia debe aterrizar el UA inmediatamente, evitando sobrevolarlos.",
+   "El piloto a distancia debe continuar el vuelo.",
+   "Se debe dejar el UA inmóvil, y el piloto a distancia debe ir a decirles que abandonen la zona."
+  ],
+  "answer": 1,
+  "explanation": "En una zona controlada no deben estar presentes personas no participantes; si entran durante la operación, la respuesta segura es terminar o interrumpir el vuelo evitando sobrevolarlas.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS, STS y definición de controlled ground area",
+  "concept": "el piloto a distancia debe aterrizar el ua inmediatamente evitando sobrevolarlos en una zona controlada no deben estar presentes personas no participantes si entran durante la operacion la respuesta segura es terminar o",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1949",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 17",
+  "difficulty": "Media",
+  "question": "¿Cuál de las siguientes comprobaciones NO tiene que realizar un piloto a distancia antes de un vuelo con una aeronave no tripulada?",
+  "options": [
+   "Detectar la presencia de personas no participantes.",
+   "Evaluar el entorno.",
+   "Verificar ENAIRE Drones.",
+   "Verificar la web del fabricante del UAS para comprobar limitaciones de la zona de vuelo."
+  ],
+  "answer": 3,
+  "explanation": "El piloto debe revisar el entorno, la presencia de personas no participantes y las restricciones aplicables al espacio aéreo. En España, la consulta de zonas geográficas de UAS se realiza mediante fuentes oficiales como ENAIRE Drones/AIP, no en la web del fabricante del dron.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: ENAIRE Drones / AIP UAS",
+  "concept": "verificar la web del fabricante del uas para comprobar limitaciones de la zona de vuelo el piloto debe revisar el entorno la presencia de personas no participantes y las restricciones aplicables al espacio aereo en espana la",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1950",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 18",
+  "difficulty": "Media",
+  "question": "Los motores BLDC outrunner:",
+  "options": [
+   "Son más eficientes que los inrunner.",
+   "Dan más par motor porque tienen mayor diámetro el rotor.",
+   "Tienen los imanes en el rotor exterior para que se ventilen mejor.",
+   "Necesitan reductora."
+  ],
+  "answer": 1,
+  "explanation": "En un motor outrunner, el rotor exterior tiene mayor radio; como el par depende del producto fuerza por radio, un radio mayor permite generar más par para una misma fuerza tangencial.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Nanotec, 'Brushless DC motors'",
+  "concept": "dan mas par motor porque tienen mayor diametro el rotor en un motor outrunner el rotor exterior tiene mayor radio como el par depende del producto fuerza por radio un radio mayor permite genera",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1951",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 19",
+  "difficulty": "Media",
+  "question": "¿Dónde se puede esperar que con mayor probabilidad se definan zonas geográficas de UAS?",
+  "options": [
+   "Playas.",
+   "Proximidades de aeropuertos y helipuertos.",
+   "Zonas arboladas.",
+   "Zonas montañosas."
+  ],
+  "answer": 1,
+  "explanation": "Las zonas geográficas de UAS suelen definirse donde es necesario facilitar, restringir o excluir operaciones por seguridad operacional; un caso típico son los entornos de aeródromos y helipuertos.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: ENAIRE, zonas geográficas de UAS en entorno de aeródromos/helipuertos",
+  "concept": "proximidades de aeropuertos y helipuertos las zonas geograficas de uas suelen definirse donde es necesario facilitar restringir o excluir operaciones por seguridad operacional un c",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1952",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 20",
+  "difficulty": "Media",
+  "question": "La cantidad de sustentación producida por un perfil aerodinámico está limitada, entre otros factores, por:",
+  "options": [
+   "Nubosidad.",
+   "Densidad del aire.",
+   "Visibilidad.",
+   "Competencias del piloto."
+  ],
+  "answer": 1,
+  "explanation": "La sustentación depende de la densidad del aire, la velocidad, la superficie alar y el coeficiente de sustentación; a menor densidad, para el mismo perfil y velocidad, se genera menos sustentación.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: NASA Glenn, 'Lift Equation'",
+  "concept": "densidad del aire la sustentacion depende de la densidad del aire la velocidad la superficie alar y el coeficiente de sustentacion a menor densidad para e",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1953",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 21",
+  "difficulty": "Media",
+  "question": "Las siglas \"TAF\" significan:",
+  "options": [
+   "Terminal Airplane Forecast.",
+   "Terminal Airplane Failure.",
+   "Terminal Aerodrome Forecast.",
+   "Terminal Aviation Forecast."
+  ],
+  "answer": 2,
+  "explanation": "TAF corresponde a 'Terminal Aerodrome Forecast', es decir, pronóstico de aeródromo.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: AEMET, información meteorológica aeronáutica; NWS, Terminal Aerodrome Forecast (TAF)",
+  "concept": "terminal aerodrome forecast taf corresponde a terminal aerodrome forecast es decir pronostico de aerodromo",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1954",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 22",
+  "difficulty": "Media",
+  "question": "¿Qué medida de mitigación se puede utilizar para disminuir el riesgo de una colisión en el aire?",
+  "options": [
+   "Reflector acoplado al dron.",
+   "Una luz verde emitida desde el dron.",
+   "Tope de riesgo en tierra.",
+   "Que la aeronave esté equipada con una luz estroboscópica de navegación."
+  ],
+  "answer": 3,
+  "explanation": "La medida relevante para reducir el riesgo de colisión en el aire es aumentar la conspicuidad/visibilidad de la aeronave mediante luces; el 'tope de riesgo en tierra' se refiere al riesgo en tierra, no al riesgo en el aire.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: ENAIRE, catálogo de mitigaciones; Reglamento (UE) 2019/945",
+  "concept": "que la aeronave este equipada con una luz estroboscopica de navegacion la medida relevante para reducir el riesgo de colision en el aire es aumentar la conspicuidad visibilidad de la aeronave mediante luces el",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1955",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 23",
+  "difficulty": "Media",
+  "question": "La principal contribución a nuestra percepción de la orientación es:",
+  "options": [
+   "Nuestra experiencia previa.",
+   "El sentido auditivo.",
+   "El sistema somato-sensorial.",
+   "El sentido visual."
+  ],
+  "answer": 3,
+  "explanation": "En orientación espacial, la visión es la contribución principal para mantener la referencia de posición y actitud.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: FAA, Spatial Disorientation",
+  "concept": "el sentido visual en orientacion espacial la vision es la contribucion principal para mantener la referencia de posicion y actitud",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1956",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 24",
+  "difficulty": "Media",
+  "question": "Usted acaba de comprar un UAS marcado de clase C5. El Sistema de Terminación de Vuelo (FTS) debe ser independiente de:",
+  "options": [
+   "La Visualización en Pantalla (OSD).",
+   "El controlador remoto.",
+   "El circuito eléctrico de la cámara de a bordo.",
+   "El controlador de vuelo."
+  ],
+  "answer": 3,
+  "explanation": "En los requisitos de clase C5/C6, el medio de terminación de vuelo debe ser fiable y estar separado del sistema automático de control y guiado de vuelo; entre las opciones, eso corresponde al controlador de vuelo.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Reglamento (UE) 2019/945, anexo, requisitos de clase C5/C6",
+  "concept": "el controlador de vuelo en los requisitos de clase c5 c6 el medio de terminacion de vuelo debe ser fiable y estar separado del sistema automatico de control y guia",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1957",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 25",
+  "difficulty": "Media",
+  "question": "¿Puede utilizarse una aeronave no tripulada que lleve una etiqueta de identificación de clase C6 tanto en STS-01 como en STS-02?",
+  "options": [
+   "Sí, puede utilizarse indistintamente en ambos escenarios estándar.",
+   "No, sólo puede utilizarse en STS-01.",
+   "No, sólo puede utilizarse en STS-02.",
+   "No, para los escenarios estándar se requiere una aeronave con etiqueta de clase C4."
+  ],
+  "answer": 2,
+  "explanation": "STS-01 se asocia a aeronaves de clase C5; STS-02 se asocia a aeronaves de clase C6, por lo que una aeronave con etiqueta C6 no se usa indistintamente en ambos.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS, Appendix 1, STS-01 y STS-02",
+  "concept": "no solo puede utilizarse en sts 02 sts 01 se asocia a aeronaves de clase c5 sts 02 se asocia a aeronaves de clase c6 por lo que una aeronave con etiqueta c6 no se usa indist",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1958",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 26",
+  "difficulty": "Media",
+  "question": "¿Cuál de las siguientes afirmaciones sobre la comprobación de la presencia de personas no participantes en la operación es cierta?",
+  "options": [
+   "Una persona que pudiera ser sobrevolada por la aeronave se convierte automáticamente en persona participante.",
+   "Todos los familiares del operador que estén cerca de un campo de aeromodelismo son personas participantes.",
+   "Las personas mayores de edad que observan la operación se convierten en ayudantes del operador.",
+   "Una persona debe haber sido informada de los riesgos y haber aceptado explícitamente participar para ser considerada persona participante."
+  ],
+  "answer": 3,
+  "explanation": "Una persona participante no lo es automáticamente por estar cerca o mirar la operación; debe conocer el riesgo y aceptar explícitamente participar.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA, Flying drones close to people; EASA Easy Access Rules for UAS",
+  "concept": "una persona debe haber sido informada de los riesgos y haber aceptado explicitamente participar para ser considerada persona participante una persona participante no lo es automaticamente por estar cerca o mirar la operacion debe conocer el riesgo y aceptar explicitamente part",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1959",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 27",
+  "difficulty": "Media",
+  "question": "El principio de una función de geocaging es:",
+  "options": [
+   "Impedir que la aeronave no tripulada entre en un espacio aéreo predeterminado.",
+   "Impedir que la aeronave no tripulada salga de un espacio aéreo predeterminado.",
+   "Proporcionar al piloto a distancia información sobre la posición geográfica de la aeronave.",
+   "Facilitar las fases de toma y aterrizaje."
+  ],
+  "answer": 1,
+  "explanation": "El geocaging actúa como una 'jaula' geográfica: mantiene la aeronave dentro de un volumen/espacio predeterminado e impide que salga de él.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS; Reglamento (UE) 2019/945",
+  "concept": "impedir que la aeronave no tripulada salga de un espacio aereo predeterminado el geocaging actua como una jaula geografica mantiene la aeronave dentro de un volumen espacio predeterminado e impide que salga de el",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1960",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 28",
+  "difficulty": "Media",
+  "question": "Las responsabilidades de un piloto a distancia que desee operar en STS-02 incluyen:",
+  "options": [
+   "No operar una aeronave no tripulada desde un vehículo en movimiento.",
+   "Elaborar un manual de operaciones.",
+   "Realizar los procedimientos de emergencia definidos por el copiloto de UAS.",
+   "Asegurarse de que la aeronave va acompañada de la declaración de conformidad UE con referencia a la marca CE de clase 6."
+  ],
+  "answer": 0,
+  "explanation": "No operar la aeronave desde un vehículo en movimiento es una responsabilidad del piloto a distancia en STS-02. Elaborar el manual de operaciones y asegurar la declaración de conformidad son responsabilidades del operador, no del piloto.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS, UAS.STS-02.030 y .040",
+  "concept": "no operar una aeronave no tripulada desde un vehiculo en movimiento no operar la aeronave desde un vehiculo en movimiento es una responsabilidad del piloto a distancia en sts 02 elaborar el manual de operaci",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1961",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 29",
+  "difficulty": "Media",
+  "question": "Las comprobaciones que debe realizar el piloto a distancia de una aeronave no tripulada antes del vuelo incluyen, entre otras, las siguientes:",
+  "options": [
+   "Comprobar la existencia de turbulencias máximas en niveles atmosféricos elevados.",
+   "Realizar un control de alcoholemia a los participantes en la operación.",
+   "Detectar posibles interferencias electromagnéticas que puedan causar degradación de la señal o pérdida de la misma.",
+   "Comprobar los planes de vuelo presentados de las aeronaves comerciales."
+  ],
+  "answer": 2,
+  "explanation": "Antes del vuelo, el piloto debe comprobar el entorno y las condiciones que puedan afectar a la seguridad de la operación, incluidas posibles interferencias electromagnéticas.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS, UAS.OPEN.060 / UAS.SPEC.060",
+  "concept": "detectar posibles interferencias electromagneticas que puedan causar degradacion de la senal o perdida de la misma antes del vuelo el piloto debe comprobar el entorno y las condiciones que puedan afectar a la seguridad de la operacion incluidas posibles",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1962",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 30",
+  "difficulty": "Media",
+  "question": "¿Qué condiciones pueden interferir en el vuelo?",
+  "options": [
+   "Altos techos de nubes.",
+   "Gente observándome desde una gran distancia.",
+   "Una tormenta eléctrica que se aproxima rápidamente.",
+   "Muy buena visibilidad."
+  ],
+  "answer": 2,
+  "explanation": "Una tormenta eléctrica que se aproxima rápidamente puede afectar de forma directa al vuelo por viento, precipitación, turbulencia, descargas eléctricas y deterioro rápido de las condiciones.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: AEMET; FAA Pilot's Handbook",
+  "concept": "una tormenta electrica que se aproxima rapidamente una tormenta electrica que se aproxima rapidamente puede afectar de forma directa al vuelo por viento precipitacion turbulencia descargas",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1963",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 31",
+  "difficulty": "Media",
+  "question": "Como piloto a distancia, tiene la intención de volar una aeronave de ala fija no tripulada:",
+  "options": [
+   "Puede ser de etiqueta de identificación de clase C6 sólo si estuviera anclada.",
+   "Puede ser de etiqueta de identificación de clase C5 sólo si estuviera cautiva.",
+   "Puede ser de etiqueta de identificación de clase C5 (sin condición).",
+   "Puede ser etiqueta de identificación de clase C6 (sin condición)."
+  ],
+  "answer": 1,
+  "explanation": "NOTA DEL EDITOR: el banco original marca 'c' como correcta, pero la resolución BOE-A-2020-16949 (STS-ES-01) y el propio temario AESA establecen que un UAS de ala fija solo puede llevar etiqueta C5 si está anclado/cautivo; por tanto la respuesta correcta según la normativa vigente es 'b', no 'c'.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: BOE-A-2020-16949; EASA Easy Access Rules for UAS",
+  "concept": "puede ser de etiqueta de identificacion de clase c5 solo si estuviera cautiva nota del editor el banco original marca c como correcta pero la resolucion boe a 2020 16949 sts es 01 y el propio temario aesa estable",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1964",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 32",
+  "difficulty": "Media",
+  "question": "Usted acaba de comprar un UAS marcado de clase C5. Debe disponer de una descripción del sistema de terminación de vuelo (FTS):",
+  "options": [
+   "En la propia aeronave no tripulada.",
+   "Previa solicitud a la autoridad competente.",
+   "Previa solicitud al fabricante del UAS.",
+   "En el manual del usuario del UAS."
+  ],
+  "answer": 3,
+  "explanation": "La descripción del FTS debe figurar en el manual del usuario del UAS, según los requisitos técnicos de la clase C5.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Reglamento (UE) 2019/945, requisitos de clase C5",
+  "concept": "en el manual del usuario del uas la descripcion del fts debe figurar en el manual del usuario del uas segun los requisitos tecnicos de la clase c5",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1965",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 33",
+  "difficulty": "Media",
+  "question": "Una checklist:",
+  "options": [
+   "Debe describir tanta información como sea posible, sin importar su extensión.",
+   "Sólo se utiliza en la aviación tripulada.",
+   "Sólo lo utilizan el fabricante y los técnicos.",
+   "Debe describir sólo la información esencial, tener un flujo razonable y ser fácil de leer y seguir."
+  ],
+  "answer": 3,
+  "explanation": "Una checklist debe ser breve, clara y seguir el flujo operativo, describiendo solo la información esencial para facilitar su uso durante la operación.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Buenas prácticas de gestión de listas de comprobación en aviación",
+  "concept": "debe describir solo la informacion esencial tener un flujo razonable y ser facil de leer y seguir una checklist debe ser breve clara y seguir el flujo operativo describiendo solo la informacion esencial para facilitar su uso durante la",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1966",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 34",
+  "difficulty": "Media",
+  "question": "¿Quién es el responsable de respetar las limitaciones del espacio aéreo durante un vuelo en modo FPV?",
+  "options": [
+   "El piloto a distancia, responsable último del vuelo.",
+   "El operador de cámara.",
+   "El observador.",
+   "El fabricante del UAS."
+  ],
+  "answer": 0,
+  "explanation": "El responsable último del cumplimiento normativo, también en modo FPV con apoyo de un observador, es siempre el piloto a distancia.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS, responsabilidades del piloto a distancia",
+  "concept": "el piloto a distancia responsable ultimo del vuelo el responsable ultimo del cumplimiento normativo tambien en modo fpv con apoyo de un observador es siempre el piloto a distancia",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1967",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 35",
+  "difficulty": "Media",
+  "question": "Un espacio aéreo segregado:",
+  "options": [
+   "Nunca incluye aeronaves no tripuladas.",
+   "Está reservado únicamente por motivos medioambientales.",
+   "Está reservado para usuarios específicos, que puede incluir aeronaves no tripuladas.",
+   "Está reservado siempre para operaciones UAS."
+  ],
+  "answer": 2,
+  "explanation": "Un espacio aéreo segregado está reservado para el uso exclusivo de usuarios específicos, lo que puede incluir operaciones UAS.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS, definiciones de espacio aéreo",
+  "concept": "esta reservado para usuarios especificos que puede incluir aeronaves no tripuladas un espacio aereo segregado esta reservado para el uso exclusivo de usuarios especificos lo que puede incluir operaciones uas",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1968",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 36",
+  "difficulty": "Media",
+  "question": "El consumo de alcohol:",
+  "options": [
+   "Aumenta la disposición al riesgo, sin más efectos relevantes.",
+   "Distorsiona la percepción, sin afectar al rendimiento.",
+   "Aumenta la tasa de error y disminuye el rendimiento cognitivo.",
+   "Aumenta el rendimiento del piloto."
+  ],
+  "answer": 2,
+  "explanation": "El alcohol incrementa la tasa de errores y reduce el rendimiento cognitivo del piloto, afectando negativamente a la seguridad del vuelo.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: FAA, 'Alcohol and Flying'",
+  "concept": "aumenta la tasa de error y disminuye el rendimiento cognitivo el alcohol incrementa la tasa de errores y reduce el rendimiento cognitivo del piloto afectando negativamente a la seguridad del vuelo",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1969",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 37",
+  "difficulty": "Media",
+  "question": "¿Qué sistema es indispensable en un piloto automático que forme parte de una aeronave no tripulada?",
+  "options": [
+   "Sígueme.",
+   "Vuelta a casa (RTH).",
+   "Gimbal.",
+   "Home lock."
+  ],
+  "answer": 1,
+  "explanation": "La función Return to Home (RTH) es una función esencial de seguridad integrada habitualmente en el piloto automático.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Temario AESA, sistemas de seguridad del piloto automático",
+  "concept": "vuelta a casa rth la funcion return to home rth es una funcion esencial de seguridad integrada habitualmente en el piloto automatico",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1970",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 38",
+  "difficulty": "Media",
+  "question": "Según la OACI, la fatiga se define como un estado fisiológico de reducción de la capacidad de rendimiento mental o físico resultante de:",
+  "options": [
+   "El viento.",
+   "Las altas temperaturas.",
+   "Pérdida de sueño o vigilia prolongada, fase circadiana o carga de trabajo (actividad mental y/o física).",
+   "El frío."
+  ],
+  "answer": 2,
+  "explanation": "Es la definición de fatiga de la OACI: un estado fisiológico de reducción de la capacidad de rendimiento mental o físico resultante de la pérdida de sueño, la vigilia prolongada, la fase del ritmo circadiano o la carga de trabajo.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: OACI, definición de fatiga",
+  "concept": "perdida de sueno o vigilia prolongada fase circadiana o carga de trabajo actividad mental y o fisica es la definicion de fatiga de la oaci un estado fisiologico de reduccion de la capacidad de rendimiento mental o fisico resultante de la pe",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1971",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 39",
+  "difficulty": "Media",
+  "question": "¿En qué banda trabaja la emisora de la aeronave no tripulada?",
+  "options": [
+   "5,8 MHz.",
+   "2,4 MHz.",
+   "2,4 GHz.",
+   "5,8 GHz."
+  ],
+  "answer": 2,
+  "explanation": "La emisora de la aeronave no tripulada trabaja habitualmente en la banda de 2,4 GHz.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Temario AESA, comunicaciones UAS",
+  "concept": "2 4 ghz la emisora de la aeronave no tripulada trabaja habitualmente en la banda de 2 4 ghz",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1972",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 40",
+  "difficulty": "Media",
+  "question": "El perfil vertical medio de la temperatura sugiere:",
+  "options": [
+   "Seis capas distintas.",
+   "Cuatro capas distintas.",
+   "Cinco capas distintas.",
+   "Tres capas distintas."
+  ],
+  "answer": 1,
+  "explanation": "El perfil vertical medio de la temperatura de la atmósfera distingue habitualmente cuatro capas.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Meteorología aeronáutica general, estructura vertical de la atmósfera",
+  "concept": "cuatro capas distintas el perfil vertical medio de la temperatura de la atmosfera distingue habitualmente cuatro capas",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1973",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 41",
+  "difficulty": "Media",
+  "question": "Antes de realizar operaciones UAS en un espacio aéreo controlado, el piloto a distancia debe:",
+  "options": [
+   "Coordinar la operación con el proveedor de servicios de tránsito aéreo responsable.",
+   "Coordinar la operación con el fabricante del UAS.",
+   "Coordinar la operación con el observador de la aeronave no tripulada.",
+   "Coordinar la operación con el propietario del terreno."
+  ],
+  "answer": 0,
+  "explanation": "Para operar en espacio aéreo controlado debe existir coordinación o autorización con el proveedor de servicios de tránsito aéreo competente.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Reglamento (UE) 2019/947; normativa AESA/ENAIRE",
+  "concept": "coordinar la operacion con el proveedor de servicios de transito aereo responsable para operar en espacio aereo controlado debe existir coordinacion o autorizacion con el proveedor de servicios de transito aereo competente",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1974",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 42",
+  "difficulty": "Media",
+  "question": "El viento de cizalladura se define como:",
+  "options": [
+   "Una variación brusca de la dirección y/o velocidad del viento en una distancia corta.",
+   "Una corriente ascendente constante.",
+   "Una corriente descendente constante.",
+   "Viento constante en superficie."
+  ],
+  "answer": 0,
+  "explanation": "La cizalladura de viento es un cambio rápido de velocidad o dirección del viento en una distancia reducida.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: OACI, manuales de meteorología aeronáutica",
+  "concept": "una variacion brusca de la direccion y o velocidad del viento en una distancia corta la cizalladura de viento es un cambio rapido de velocidad o direccion del viento en una distancia reducida",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1975",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 43",
+  "difficulty": "Media",
+  "question": "El centro de gravedad de una aeronave no tripulada:",
+  "options": [
+   "No afecta a la estabilidad.",
+   "Sólo afecta a la autonomía.",
+   "Afecta a la estabilidad y control de la aeronave.",
+   "Sólo afecta al sistema de comunicaciones."
+  ],
+  "answer": 2,
+  "explanation": "La posición del centro de gravedad condiciona directamente la estabilidad, el control y el comportamiento de vuelo de la aeronave.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Principios generales de aeronavegabilidad y manuales de operación UAS",
+  "concept": "afecta a la estabilidad y control de la aeronave la posicion del centro de gravedad condiciona directamente la estabilidad el control y el comportamiento de vuelo de la aeronave",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1976",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 44",
+  "difficulty": "Media",
+  "question": "En una operación BVLOS:",
+  "options": [
+   "El piloto mantiene siempre contacto visual directo con la aeronave.",
+   "La aeronave se opera más allá del alcance visual directo del piloto.",
+   "Sólo se permite volar en interiores.",
+   "No se puede utilizar ningún observador."
+  ],
+  "answer": 1,
+  "explanation": "BVLOS significa Beyond Visual Line of Sight, es decir, operación más allá del alcance visual directo del piloto.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Reglamento (UE) 2019/947, definiciones y escenarios estándar UAS",
+  "concept": "la aeronave se opera mas alla del alcance visual directo del piloto bvlos significa beyond visual line of sight es decir operacion mas alla del alcance visual directo del piloto",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1977",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 45",
+  "difficulty": "Media",
+  "question": "El número de registro del operador de UAS:",
+  "options": [
+   "Debe introducirse en el sistema de identificación remota directa cuando sea aplicable.",
+   "Sólo debe figurar en la factura de compra.",
+   "Sólo lo conserva el fabricante.",
+   "No es necesario en operaciones UAS."
+  ],
+  "answer": 0,
+  "explanation": "Cuando el UAS dispone de identificación remota directa, debe cargarse el número de registro del operador en dicho sistema.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Reglamento (UE) 2019/947 y Reglamento Delegado (UE) 2019/945",
+  "concept": "debe introducirse en el sistema de identificacion remota directa cuando sea aplicable cuando el uas dispone de identificacion remota directa debe cargarse el numero de registro del operador en dicho sistema",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1978",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 46",
+  "difficulty": "Media",
+  "question": "La presión atmosférica:",
+  "options": [
+   "Aumenta siempre con la altitud.",
+   "Disminuye normalmente con la altitud.",
+   "No afecta al vuelo.",
+   "Sólo afecta a aeronaves tripuladas."
+  ],
+  "answer": 1,
+  "explanation": "En la atmósfera estándar, la presión disminuye al aumentar la altitud.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: OACI, atmósfera estándar internacional",
+  "concept": "disminuye normalmente con la altitud en la atmosfera estandar la presion disminuye al aumentar la altitud",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1979",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 47",
+  "difficulty": "Media",
+  "question": "El piloto a distancia debe interrumpir el vuelo si:",
+  "options": [
+   "La operación supone un riesgo para otras aeronaves, personas, animales, medio ambiente o bienes.",
+   "La batería está completamente cargada.",
+   "El viento está en calma.",
+   "El observador está disponible."
+  ],
+  "answer": 0,
+  "explanation": "El piloto debe abortar o interrumpir la operación si la seguridad no puede mantenerse, en particular si supone un riesgo para terceros.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Reglamento (UE) 2019/947, responsabilidades del piloto a distancia",
+  "concept": "la operacion supone un riesgo para otras aeronaves personas animales medio ambiente o bienes el piloto debe abortar o interrumpir la operacion si la seguridad no puede mantenerse en particular si supone un riesgo para terceros",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1980",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 48",
+  "difficulty": "Media",
+  "question": "La altura máxima general en categoría abierta es:",
+  "options": [
+   "50 m sobre el punto de despegue.",
+   "100 m sobre el terreno.",
+   "120 m sobre el punto más próximo de la superficie terrestre.",
+   "150 m sobre el nivel medio del mar."
+  ],
+  "answer": 2,
+  "explanation": "En categoría abierta, la altura máxima general es de 120 m sobre el punto más próximo de la superficie terrestre, salvo excepciones (obstáculos).",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Reglamento (UE) 2019/947, UAS.OPEN.010",
+  "concept": "120 m sobre el punto mas proximo de la superficie terrestre en categoria abierta la altura maxima general es de 120 m sobre el punto mas proximo de la superficie terrestre salvo excepciones obstacu",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1981",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 49",
+  "difficulty": "Media",
+  "question": "Una persona no participante es:",
+  "options": [
+   "Una persona que participa en la operación.",
+   "Una persona que no participa en la operación ni conoce las instrucciones y riesgos asociados.",
+   "El piloto a distancia.",
+   "El operador de UAS."
+  ],
+  "answer": 1,
+  "explanation": "Las personas no participantes son aquellas que no forman parte de la operación y no han recibido instrucciones ni aceptado participar.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: EASA Easy Access Rules for UAS / AMC-GM al Reglamento (UE) 2019/947",
+  "concept": "una persona que no participa en la operacion ni conoce las instrucciones y riesgos asociados las personas no participantes son aquellas que no forman parte de la operacion y no han recibido instrucciones ni aceptado participar",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1982",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 50",
+  "difficulty": "Media",
+  "question": "El objetivo de una evaluación del entorno operacional antes del vuelo es:",
+  "options": [
+   "Identificar obstáculos, personas, condiciones meteorológicas y restricciones aplicables.",
+   "Escoger el color del UAS.",
+   "Comprobar únicamente el estado de la cámara.",
+   "Sustituir el manual de operaciones."
+  ],
+  "answer": 0,
+  "explanation": "La evaluación previa permite comprobar riesgos operacionales, obstáculos, presencia de personas, meteorología y restricciones de espacio aéreo.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Reglamento (UE) 2019/947, responsabilidades del piloto a distancia",
+  "concept": "identificar obstaculos personas condiciones meteorologicas y restricciones aplicables la evaluacion previa permite comprobar riesgos operacionales obstaculos presencia de personas meteorologia y restricciones de espacio aer",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1983",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 51",
+  "difficulty": "Media",
+  "question": "El piloto a distancia puede encontrar información sobre zonas peligrosas, prohibidas y restringidas:",
+  "options": [
+   "En la parte AD del AIP.",
+   "En la parte ENR del AIP.",
+   "En la parte GEN del AIP.",
+   "En la parte DPR del AIP."
+  ],
+  "answer": 1,
+  "explanation": "Las zonas peligrosas, prohibidas y restringidas se publican en la parte ENR del AIP, dentro de la información relativa al espacio aéreo y navegación en ruta.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: AIP España, parte ENR (especialmente ENR 5)",
+  "concept": "en la parte enr del aip las zonas peligrosas prohibidas y restringidas se publican en la parte enr del aip dentro de la informacion relativa al espacio aereo y na",
+  "examSet": "uas_1_52"
+ },
+ {
+  "id": "Q1984",
+  "theme": "Banco UAS 1-52",
+  "subtheme": "Pregunta 52",
+  "difficulty": "Media",
+  "question": "El acrónimo CG significa:",
+  "options": [
+   "Círculo de gravedad.",
+   "Gravedad central.",
+   "Centro de gravedad.",
+   "Gravedad circular."
+  ],
+  "answer": 2,
+  "explanation": "CG corresponde a centro de gravedad: el punto donde se considera aplicada la resultante del peso de la aeronave, y que afecta a su estabilidad y control.",
+  "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: Principios generales de aeronáutica y manuales de operación UAS",
+  "concept": "centro de gravedad cg corresponde a centro de gravedad el punto donde se considera aplicada la resultante del peso de la aeronave y que afecta a su estabilid",
+  "examSet": "uas_1_52"
  }
 ]
