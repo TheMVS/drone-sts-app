@@ -21717,8 +21717,8 @@
       "Puede ser etiqueta de identificación de clase C6 (sin condición)."
     ],
     "answer": 1,
-    "explanation": "NOTA DEL EDITOR: el banco original marca 'c' como correcta, pero la resolución BOE-A-2020-16949 (STS-ES-01) y el propio temario AESA establecen que un UAS de ala fija solo puede llevar etiqueta C5 si está anclado/cautivo; por tanto la respuesta correcta según la normativa vigente es 'b', no 'c'.",
-    "source": "Banco de preguntas UAS 1-52 (compilación propia del usuario, con fuentes citadas por pregunta) — fuente citada: BOE-A-2020-16949; EASA Easy Access Rules for UAS",
+    "explanation": "Confirmado por tres fuentes: (1) el Reglamento (UE) 2019/945, Parte 16(1): 'be an aircraft other than a fixed-wing aircraft unless tethered'; (2) el Syllabus oficial de AESA: 'la configuración de un UAS que lleve una etiqueta de identificación de clase C5 debe ser distinta de la de ala fija, a menos que esté anclado'; y (3) el listado de requisitos de clase C5, que dice literalmente 'No ser de ala fija salvo que sea cautiva'. 'Anclado' y 'cautiva' son sinónimos de 'tethered'. La restricción de ala fija es específica de la clase C5: la clase C6 no la incluye entre sus requisitos. Por tanto, un UAS de ala fija solo puede llevar etiqueta de clase C5 (nunca C6 por este motivo) y únicamente si está cautivo/anclado.",
+    "source": "Reglamento (UE) 2019/945, Parte 16(1); Temario.examen.conocimientos.teoricos.Syllabus.pdf (AESA), apartado 5.I.b; listado de requisitos técnicos de las clases C5 y C6",
     "concept": "puede ser de etiqueta de identificacion de clase c5 solo si estuviera cautiva nota del editor el banco original marca c como correcta pero la resolucion boe a 2020 16949 sts es 01 y el propio temario aesa estable",
     "examSet": "uas_1_52"
   },
@@ -23701,5 +23701,1928 @@
     "source": "Droniteca.com — Banco de preguntas test STS drones (con soluciones)",
     "concept": "el entorno, la meteorología, las limitaciones humanas y el uas. además, se recomienda el uso de listas de control o checklist para que el piloto pueda comprobar en orden cada una de las tareas que debe realizar. el concepto meuh se refiere a comprobar antes del vuelo con una aeronave no tripulada los siguientes aspectos:",
     "examSet": "droniteca_1_89"
+  },
+  {
+    "id": "Q5001",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 1",
+    "difficulty": "Media",
+    "question": "Una aeronave no tripulada con marcado de clase C4 puede ser utilizada en el escenario estándar STS-01",
+    "options": [
+      "Sí, siempre que se disponga de un observador del espacio aéreo.",
+      "No, para el escenario estándar STS-01 se necesita una aeronave no tripulada con marcado de clase C5.",
+      "Sí, para el escenario estándar STS-01 es indiferente el marcado de clase de la aeronave no tripulada usada.",
+      "No, para el escenario estándar STS-01 se necesita una aeronave no tripulada con marcado de clase C6."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"No, para el escenario estándar STS-01 se necesita una aeronave no tripulada con marcado de clase C5.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "no, para el escenario estándar sts-01 se necesita una aeronave no tripulada con marcado de clase c5. una aeronave no tripulada con marcado de clase c4 puede ser utilizada en el escenario estándar sts-01",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5002",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 2",
+    "difficulty": "Media",
+    "question": "La etiqueta de identificación de marcado de clase C6 irá pegada en la aeronave no tripulada",
+    "options": [
+      "Sí, la etiqueta de identificación de marcado de clase C6 irá pegada a la aeronave no tripulada.",
+      "Sí, aunque también puede ir en el kit de accesorios.",
+      "Las aeronaves con marcado de clase C6 no llevan etiqueta de identificación de clase.",
+      "No, la etiqueta de identificación de marcado de clase no es obligatoria."
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Sí, la etiqueta de identificación de marcado de clase C6 irá pegada a la aeronave no tripulada.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "sí, la etiqueta de identificación de marcado de clase c6 irá pegada a la aeronave no tripulada. la etiqueta de identificación de marcado de clase c6 irá pegada en la aeronave no tripulada",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5003",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 3",
+    "difficulty": "Media",
+    "question": "Las operaciones de UAS en el escenario estándar STS-02 se pueden realizar con la aeronave no tripulada en modo BVLOS en todo momento.",
+    "options": [
+      "Sí, siempre que los primeros 2 minutos sean en modo VLOS.",
+      "Sí, esa es una característica específica del escenario estándar STS-02.",
+      "No, en el escenario estándar STS-02 las operaciones serán en modo VLOS.",
+      "Sí, siempre que el piloto a distancia disponga de la licencia de piloto de ultraligeros."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Sí, esa es una característica específica del escenario estándar STS-02.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "sí, esa es una característica específica del escenario estándar sts-02. las operaciones de uas en el escenario estándar sts-02 se pueden realizar con la aeronave no tripulada en modo bvlos en todo momento.",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5004",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 4",
+    "difficulty": "Media",
+    "question": "Si deseo transportar en la aeronave no tripulada mercancías peligrosas:",
+    "options": [
+      "Debo operar en el escenario estándar STS-02 con aeronaves con marcado de clase C5.",
+      "Puedo operar en ambos escenarios estándar con aeronaves con marcado de clase C5.",
+      "Debo operar en el escenario estándar STS-01 con aeronaves con marcado de clase C5.",
+      "Los escenarios estándar no permiten el transporte de mercancías peligrosas."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Los escenarios estándar no permiten el transporte de mercancías peligrosas.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "los escenarios estándar no permiten el transporte de mercancías peligrosas. si deseo transportar en la aeronave no tripulada mercancías peligrosas:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5005",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 5",
+    "difficulty": "Media",
+    "question": "Los responsables de la visión nocturna son:",
+    "options": [
+      "Los bastones.",
+      "La córnea.",
+      "Los conos y los bastones.",
+      "Los conos."
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Los bastones.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "los bastones. los responsables de la visión nocturna son:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5006",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 6",
+    "difficulty": "Media",
+    "question": "¿Un alto nivel de estrés puede provocar?",
+    "options": [
+      "Que se ejecuten los procedimientos en su orden correcto.",
+      "Aumento de la atención debido a la tensión.",
+      "Palpitaciones y pérdida de memoria.",
+      "Disminución de la tasa de error al aumentar la atención."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Palpitaciones y pérdida de memoria.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "palpitaciones y pérdida de memoria. ¿un alto nivel de estrés puede provocar?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5007",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 7",
+    "difficulty": "Media",
+    "question": "El punto ciego es:",
+    "options": [
+      "La fóvea.",
+      "La inserción del nervio óptico.",
+      "Donde coinciden la fóvea y el nervio óptico.",
+      "El punto en el que no se tiene visión frontal."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"La inserción del nervio óptico.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "la inserción del nervio óptico. el punto ciego es:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5008",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 8",
+    "difficulty": "Media",
+    "question": "La utilización de las listas de control (check-list) debe efectuarse de manera tal que:",
+    "options": [
+      "Pueda rechazarse ya que la redundancia en la siguiente lista de control servirá como verificación.",
+      "Su ejecución coincida con otras tareas para aumentar la atención.",
+      "Su ejecución no coincida con otras tareas importantes para evitar errores.",
+      "Su ejecución pueda coincidir con la realización de otras actividades."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Su ejecución no coincida con otras tareas importantes para evitar errores.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "su ejecución no coincida con otras tareas importantes para evitar errores. la utilización de las listas de control (check-list) debe efectuarse de manera tal que:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5009",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 9",
+    "difficulty": "Media",
+    "question": "¿Cuál de las siguientes consecuencias NO es producida por un ambiente con presión sonora alta?",
+    "options": [
+      "Aumento del rendimiento y la atención.",
+      "Alteraciones cardio-respiratorias y malestar.",
+      "Aumento de errores y accidentes.",
+      "Disminución del rendimiento y la atención."
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Aumento del rendimiento y la atención.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "aumento del rendimiento y la atención. ¿cuál de las siguientes consecuencias no es producida por un ambiente con presión sonora alta?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5010",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 10",
+    "difficulty": "Media",
+    "question": "Los procedimientos operacionales a realizar antes del vuelo con una aeronave no tripulada son responsabilidad de:",
+    "options": [
+      "El piloto a distancia.",
+      "El operador de UAS.",
+      "El Gestor del aeropuerto más cercano.",
+      "La autoridad competente."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"El operador de UAS.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "el operador de uas. los procedimientos operacionales a realizar antes del vuelo con una aeronave no tripulada son responsabilidad de:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5011",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 11",
+    "difficulty": "Media",
+    "question": "Las verificaciones que debe realizar el piloto de una aeronave no tripulada antes del vuelo incluyen entre otras:",
+    "options": [
+      "Realizar un control de alcoholemia a los participantes en la operación.",
+      "Verificar en la web de cada Ayuntamiento afectado que la zona de vuelo no tiene limitaciones ni restricciones.",
+      "Verificar que se encuentra en condiciones óptimas para llevar a cabo la operación.",
+      "Comprobar la turbulencia por encima de 1000 m."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Verificar que se encuentra en condiciones óptimas para llevar a cabo la operación.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "verificar que se encuentra en condiciones óptimas para llevar a cabo la operación. las verificaciones que debe realizar el piloto de una aeronave no tripulada antes del vuelo incluyen entre otras:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5012",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 12",
+    "difficulty": "Media",
+    "question": "En caso de detectar personas no participantes en la operación durante la exploración previa al vuelo de la zona de operación:",
+    "options": [
+      "Se les proporcionará el número de licencia del piloto de la aeronave no tripulada.",
+      "Se les proporcionará los datos de contacto del operador de la aeronave no tripulada.",
+      "Se les debe proporcionar instrucciones para que se alejen de la zona de operación.",
+      "Se les debe proporcionar instrucciones para que no se muevan dentro de la zona de operación."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Se les debe proporcionar instrucciones para que se alejen de la zona de operación.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "se les debe proporcionar instrucciones para que se alejen de la zona de operación. en caso de detectar personas no participantes en la operación durante la exploración previa al vuelo de la zona de operación:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5013",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 13",
+    "difficulty": "Media",
+    "question": "La aplicación web ENAIRE Drones permite al piloto de una aeronave no tripulada:",
+    "options": [
+      "Consultar la presencia de otras aeronaves no tripuladas en la zona de operación.",
+      "Consultar los planes de vuelo presentados por las aeronaves comerciales.",
+      "Consultar la previsión meteorológica de una zona concreta de operación.",
+      "Consultar las posibles limitaciones y restricciones impuestas en la zona de operación."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Consultar las posibles limitaciones y restricciones impuestas en la zona de operación.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "consultar las posibles limitaciones y restricciones impuestas en la zona de operación. la aplicación web enaire drones permite al piloto de una aeronave no tripulada:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5014",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 14",
+    "difficulty": "Media",
+    "question": "Durante el vuelo de una aeronave no tripulada, el piloto estará al tanto, entre otros, de los siguientes aspectos:",
+    "options": [
+      "Verificar en la web de ENAIRE Drones las limitaciones y restricciones previstas.",
+      "Observar la evolución de las condiciones meteorológicas y los datos de telemetría.",
+      "Publicar un NOTAM si prevé excederse del área de operación inicial.",
+      "Apuntar en el registro de la aeronave no tripulada la hora de inicio del vuelo."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Observar la evolución de las condiciones meteorológicas y los datos de telemetría.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "observar la evolución de las condiciones meteorológicas y los datos de telemetría. durante el vuelo de una aeronave no tripulada, el piloto estará al tanto, entre otros, de los siguientes aspectos:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5015",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 15",
+    "difficulty": "Media",
+    "question": "Las verificaciones que debe realizar el piloto de una aeronave no tripulada antes del vuelo incluyen entre otras:",
+    "options": [
+      "Comprobar la turbulencia máxima en niveles altos de la atmósfera.",
+      "La comprobación de los planes de vuelo de aeronaves comerciales presentados.",
+      "Detectar posibles interferencias electromagnéticas que puedan provocar la degradación o pérdida de señal.",
+      "Realizar un control de alcoholemia a los participantes en la operación."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Detectar posibles interferencias electromagnéticas que puedan provocar la degradación o pérdida de señal.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "detectar posibles interferencias electromagnéticas que puedan provocar la degradación o pérdida de señal. las verificaciones que debe realizar el piloto de una aeronave no tripulada antes del vuelo incluyen entre otras:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5016",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 16",
+    "difficulty": "Media",
+    "question": "¿Cuál de las siguientes acciones NO tiene que realizar el piloto de una aeronave no tripulada durante el vuelo?:",
+    "options": [
+      "Comprobar los datos de telemetría y avisos o alertas.",
+      "Publicar un NOTAM si prevé excederse del área de operación.",
+      "Vigilar la evolución de las condiciones meteorológicas.",
+      "Gestionar el combustible (Carga de batería consumida y restante)."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Publicar un NOTAM si prevé excederse del área de operación.\" NOTA: El documento original no marca la respuesta correcta para esta pregunta (posiblemente sin responder); se completa por coherencia con el resto del banco de preguntas.",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "publicar un notam si prevé excederse del área de operación. ¿cuál de las siguientes acciones no tiene que realizar el piloto de una aeronave no tripulada durante el vuelo?:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5017",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 17",
+    "difficulty": "Media",
+    "question": "En categoría específica, el operador de UAS ¿deberá incluir los procedimientos operacionales en el manual de operaciones?:",
+    "options": [
+      "Sí, siempre y cuando no se disponga de Manual de Usuario.",
+      "Sí, siempre incluirá los procedimientos operacionales en su manual de operaciones",
+      "Sólo si el operador de UAS y el piloto a distancia son la misma persona.",
+      "No, ya que no es necesario disponer de un manual de operaciones."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Sí, siempre incluirá los procedimientos operacionales en su manual de operaciones\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "sí, siempre incluirá los procedimientos operacionales en su manual de operaciones en categoría específica, el operador de uas ¿deberá incluir los procedimientos operacionales en el manual de operaciones?:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5018",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 18",
+    "difficulty": "Media",
+    "question": "Durante el desarrollo de la operación en las inmediaciones de un aeródromo, debemos prestar atención a la radio.",
+    "options": [
+      "En todo momento.",
+      "No es necesaria la radio.",
+      "Solo a la FM.",
+      "Únicamente para comunicar despegue y aterrizaje."
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"En todo momento.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "en todo momento. durante el desarrollo de la operación en las inmediaciones de un aeródromo, debemos prestar atención a la radio.",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5019",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 19",
+    "difficulty": "Media",
+    "question": "Si durante la operación de vuelo acceden a la zona controlada personas no participantes en la misma.",
+    "options": [
+      "Continuamos con la operación como si no estuvieran.",
+      "Dejamos el UAS estacionario y vamos a hablar con ellos para decirles que abandonen la zona.",
+      "Les asustamos con el UAS para que se alejen.",
+      "Aterrizamos evitando sobrevolarles."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Aterrizamos evitando sobrevolarles.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "aterrizamos evitando sobrevolarles. si durante la operación de vuelo acceden a la zona controlada personas no participantes en la misma.",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5020",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 20",
+    "difficulty": "Media",
+    "question": "En un vuelo BVLOS, ¿a qué distancia se tiene que situar el observador?",
+    "options": [
+      "No hace falta observador ya que es BVLOS.",
+      "A 4 km. si volamos a 6 km.",
+      "A 1 km.",
+      "Al lado del piloto."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"A 1 km.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "a 1 km. en un vuelo bvlos, ¿a qué distancia se tiene que situar el observador?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5021",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 21",
+    "difficulty": "Media",
+    "question": "En el caso de operaciones en zona de seguridad de aeródromo o helipuerto, ¿con quién se debe coordinar el vuelo?",
+    "options": [
+      "Con el ayuntamiento local.",
+      "Con AESA.",
+      "Con EASA.",
+      "Con la entidad responsable de dicha instalación."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Con la entidad responsable de dicha instalación.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "con la entidad responsable de dicha instalación. en el caso de operaciones en zona de seguridad de aeródromo o helipuerto, ¿con quién se debe coordinar el vuelo?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5022",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 22",
+    "difficulty": "Media",
+    "question": "En el caso de que un observador del espacio aéreo detecte una aeronave tripulada entrando en la zona de operaciones:",
+    "options": [
+      "Alertará al piloto de la aeronave tripulada para que tome las medidas necesarias incluida la terminación del vuelo.",
+      "Comunicará por radio con AESA para que abran un expediente sancionador a la aeronave tripulada.",
+      "Hará señales a la aeronave tripulada para que desvíe su trayectoria fuera de la zona de operaciones.",
+      "Alertará al piloto de la aeronave no tripulada para que tome las medidas necesarias incluida la terminación del vuelo."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Alertará al piloto de la aeronave no tripulada para que tome las medidas necesarias incluida la terminación del vuelo.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "alertará al piloto de la aeronave no tripulada para que tome las medidas necesarias incluida la terminación del vuelo. en el caso de que un observador del espacio aéreo detecte una aeronave tripulada entrando en la zona de operaciones:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5023",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 23",
+    "difficulty": "Media",
+    "question": "Para la realización de operaciones en escenario estándar hay que tener definidos:",
+    "options": [
+      "Plan de operación de enjambre de aeronaves.",
+      "Plan de respuesta a emergencias.",
+      "Plan de contingencias afines al vuelo por encima de 500 m. AGL",
+      "Plan de operación desde vehículos en movimiento."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Plan de respuesta a emergencias.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "plan de respuesta a emergencias. para la realización de operaciones en escenario estándar hay que tener definidos:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5024",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 24",
+    "difficulty": "Media",
+    "question": "El piloto al mando de la aeronave no tripulada deberá siempre:",
+    "options": [
+      "Planificar la operación sobre la marcha.",
+      "Llegar el último y marcharse el primero.",
+      "Tomarse descansos cortos durante el vuelo con el fin de reducir el estrés.",
+      "Respetar los procedimientos del operador."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Respetar los procedimientos del operador.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "respetar los procedimientos del operador. el piloto al mando de la aeronave no tripulada deberá siempre:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5025",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 25",
+    "difficulty": "Media",
+    "question": "Si la aeronave no tripulada está equipada con una función de geoconsciencia, esta debe proporcionar al piloto:",
+    "options": [
+      "Información meteorológica en el punto donde se encuentra volando la aeronave.",
+      "Un mensaje de alerta cuando se detecte una posible violación de los límites del espacio aéreo asignado a la operación.",
+      "Información del estado de la batería.",
+      "Un mensaje de alerta cuando se detecte una intrusión en el espacio aéreo asignado a la operación."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Un mensaje de alerta cuando se detecte una posible violación de los límites del espacio aéreo asignado a la operación.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "un mensaje de alerta cuando se detecte una posible violación de los límites del espacio aéreo asignado a la operación. si la aeronave no tripulada está equipada con una función de geoconsciencia, esta debe proporcionar al piloto:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5026",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 26",
+    "difficulty": "Media",
+    "question": "¿En qué banda trabaja la emisora de la aeronave no tripulada?",
+    "options": [
+      "5,8 MHz.",
+      "2,4 GHz.",
+      "2,4 MHz.",
+      "5,8 GHz."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"2,4 GHz.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "2,4 ghz. ¿en qué banda trabaja la emisora de la aeronave no tripulada?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5027",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 27",
+    "difficulty": "Media",
+    "question": "Las cargas en la célula producen fatiga de los materiales, esta fatiga puede ser:",
+    "options": [
+      "Térmica.",
+      "Mecánica y térmica.",
+      "Las cargas en la célula no producen fatiga.",
+      "Mecánica."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Mecánica.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "mecánica. las cargas en la célula producen fatiga de los materiales, esta fatiga puede ser:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5028",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 28",
+    "difficulty": "Media",
+    "question": "Los motores BLDC outrunner:",
+    "options": [
+      "Necesitan reductora porque van muy rápido por el mayor momento de inercia.",
+      "Dan más par motor porque tienen mayor diámetro el rotor.",
+      "Tienen los imanes en el rotor exterior para que se ventilen mejor.",
+      "Son más eficientes que los inrunner."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Dan más par motor porque tienen mayor diámetro el rotor.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "dan más par motor porque tienen mayor diámetro el rotor. los motores bldc outrunner:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5029",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 29",
+    "difficulty": "Media",
+    "question": "El control electrónico de velocidad (ESC) varía la velocidad de cada rotor:",
+    "options": [
+      "Variando la carga de la batería.",
+      "Variando su tensión de alimentación.",
+      "Variando la frecuencia de alimentación.",
+      "Variando la corriente de alimentación."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Variando la frecuencia de alimentación.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "variando la frecuencia de alimentación. el control electrónico de velocidad (esc) varía la velocidad de cada rotor:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5030",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 30",
+    "difficulty": "Media",
+    "question": "En una aeronave no tripulada con cuatro rotores:",
+    "options": [
+      "Un número impar de rotores no se puede compensar.",
+      "Los rotores giran en sentidos inversos, dos a dos y pueden girar a diferentes rpm.",
+      "Son más estables que los de 6 rotores.",
+      "Todos los rotores giran siempre a las mismas rpm."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Los rotores giran en sentidos inversos, dos a dos y pueden girar a diferentes rpm.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "los rotores giran en sentidos inversos, dos a dos y pueden girar a diferentes rpm. en una aeronave no tripulada con cuatro rotores:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5031",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 31",
+    "difficulty": "Media",
+    "question": "Las distancias medidas por un sensor de presión estática …",
+    "options": [
+      "Son distancias reales sin errores.",
+      "Son distancias medidas por GNSS.",
+      "Son distancias barométricas.",
+      "Son distancias medidas por los inerciales."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Son distancias barométricas.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "son distancias barométricas. las distancias medidas por un sensor de presión estática …",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5032",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 32",
+    "difficulty": "Media",
+    "question": "¿Cuál de las siguientes opciones sería la incorrecta ante un posible fallo en la recepción de la señal del GNSS?",
+    "options": [
+      "Aumento del nivel de alerta por el Gobierno de EE.UU.",
+      "La aeronave no tripulada está en un espacio cerrado.",
+      "La recepción del GNSS puede estar bloqueada por presencia de nubes.",
+      "La aeronave no tripulada para los motores."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"La aeronave no tripulada para los motores.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "la aeronave no tripulada para los motores. ¿cuál de las siguientes opciones sería la incorrecta ante un posible fallo en la recepción de la señal del gnss?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5033",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 33",
+    "difficulty": "Media",
+    "question": "Señala la incorrecta. Una vez activado el modo de vuelo Fail Safe podemos esperar que la aeronave no tripulada:",
+    "options": [
+      "Aterrice en ese punto.",
+      "Suba hasta una altura de seguridad antes de iniciar la vuelta a casa.",
+      "Mantenga el vuelo estático.",
+      "Si es un hexarotor o hexacoptero, parará dos motores para descender rápidamente."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Si es un hexarotor o hexacoptero, parará dos motores para descender rápidamente.\" NOTA: Otro banco de preguntas (Droniteca.com) marca como incorrecta la opción \"Suba hasta una altura de seguridad antes de iniciar la vuelta a casa\", que en realidad describe un comportamiento normal del Fail Safe/RTH. Se mantiene la respuesta de este examen porque \"parar dos motores para descender rápidamente\" no es un comportamiento real de Fail Safe (provocaría una pérdida de control), por lo que es la afirmación lógicamente incorrecta.",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "si es un hexarotor o hexacoptero, parará dos motores para descender rápidamente. señala la incorrecta. una vez activado el modo de vuelo fail safe podemos esperar que la aeronave no tripulada:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5034",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 34",
+    "difficulty": "Media",
+    "question": "En operaciones en escenario estándar está permitido:",
+    "options": [
+      "Mantener durante toda la operación el control de la aeronave con la misma unidad de mando.",
+      "Transferir el control de la aeronave no tripulada a otra unidad de mando salvo que a los 5 minutos se le devuelva el mando a la unidad original.",
+      "Transferir el control de la aeronave no tripulada a otra unidad de mando.",
+      "Transferir el control de la aeronave no tripulada a otra unidad de mando salvo que tengan el mismo identificador."
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Mantener durante toda la operación el control de la aeronave con la misma unidad de mando.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "mantener durante toda la operación el control de la aeronave con la misma unidad de mando. en operaciones en escenario estándar está permitido:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5035",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 35",
+    "difficulty": "Media",
+    "question": "Las verificaciones que debe realizar el piloto de una aeronave no tripulada antes del vuelo incluyen entre otras:",
+    "options": [
+      "Comprobar que la aeronave no tripulada reúne las condiciones apropiadas.",
+      "Verificar en la web de cada Ayuntamiento afectado que la zona de vuelo no tiene limitaciones ni restricciones.",
+      "Comprobar la turbulencia por encima de 1000 m.",
+      "La comprobación de los planes de vuelo de aeronaves comerciales presentados."
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Comprobar que la aeronave no tripulada reúne las condiciones apropiadas.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "comprobar que la aeronave no tripulada reúne las condiciones apropiadas. las verificaciones que debe realizar el piloto de una aeronave no tripulada antes del vuelo incluyen entre otras:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5036",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 36",
+    "difficulty": "Media",
+    "question": "La IMU aporta los datos para controlar...",
+    "options": [
+      "El equilibrio de la aeronave no tripulada en los tres ejes y sus aceleraciones.",
+      "La situación geográfica de la aeronave no tripulada.",
+      "La altura de la aeronave no tripulada sobre el suelo.",
+      "La situación inicial para usar la función de vuelta a casa."
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"El equilibrio de la aeronave no tripulada en los tres ejes y sus aceleraciones.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "el equilibrio de la aeronave no tripulada en los tres ejes y sus aceleraciones. la imu aporta los datos para controlar...",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5037",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 37",
+    "difficulty": "Media",
+    "question": "Durante un vuelo con UAS, ¿Cuál de las siguientes afirmaciones NO causa estrés?",
+    "options": [
+      "Tener la responsabilidad de la operación, PIC.",
+      "Volar a baja altitud ya que mejora la visibilidad del UAS.",
+      "Una alta carga de trabajo.",
+      "Ejecutar los procedimientos en su orden correcto"
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Ejecutar los procedimientos en su orden correcto\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "ejecutar los procedimientos en su orden correcto durante un vuelo con uas, ¿cuál de las siguientes afirmaciones no causa estrés?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5038",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 38",
+    "difficulty": "Media",
+    "question": "Entre las responsabilidades de un piloto a distancia que quiera operar en el escenario estándar STS-02 se encuentra:",
+    "options": [
+      "Garantizar que la etiqueta de identificación de marcado de clase C6 está colocada en la aeronave no tripulada",
+      "Elaborar un manual de operaciones.",
+      "No utilizar una aeronave no tripulada desde un vehículo en movimiento.",
+      "Garantizar que la aeronave no tripulada va acompañada de la correspondiente declaración UE de conformidad, incluida la referencia al marcado de clase C6"
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"No utilizar una aeronave no tripulada desde un vehículo en movimiento.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "no utilizar una aeronave no tripulada desde un vehículo en movimiento. entre las responsabilidades de un piloto a distancia que quiera operar en el escenario estándar sts-02 se encuentra:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5039",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 39",
+    "difficulty": "Media",
+    "question": "Los motores de los giroaviones suelen ser:",
+    "options": [
+      "MIDRUNNER.",
+      "INERUNNER.",
+      "INRUNNER",
+      "BRUSHLESS."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"BRUSHLESS.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "brushless. los motores de los giroaviones suelen ser:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5040",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 40",
+    "difficulty": "Media",
+    "question": "En un giroavión, si falla una hélice:",
+    "options": [
+      "No afecta",
+      "Volará solo durante 5 min. más.",
+      "Sí puede seguir volando",
+      "No puede seguir volando."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"No puede seguir volando.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "no puede seguir volando. en un giroavión, si falla una hélice:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5041",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 41",
+    "difficulty": "Media",
+    "question": "¿El piloto a distancia debe evaluar el entorno donde va a realizar los vuelos antes de iniciar la operación?",
+    "options": [
+      "Solo será necesario si se prevén condiciones meteorológicas adversas.",
+      "No es necesario ya que los escenarios estándar no lo requieren.",
+      "Solo será necesario en el caso de que se prevea encontrar personas no participantes en la zona de operación.",
+      "Sí, verificará que la operación se ajusta a la normativa y cumple con las posibles limitaciones y restricciones impuestas en la zona de operación."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Sí, verificará que la operación se ajusta a la normativa y cumple con las posibles limitaciones y restricciones impuestas en la zona de operación.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "sí, verificará que la operación se ajusta a la normativa y cumple con las posibles limitaciones y restricciones impuestas en la zona de operación. ¿el piloto a distancia debe evaluar el entorno donde va a realizar los vuelos antes de iniciar la operación?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5042",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 42",
+    "difficulty": "Media",
+    "question": "El piloto al mando de la aeronave debe informar a los observadores de cualquier desvío de la aeronave respecto a la trayectoria y horarios previstos:",
+    "options": [
+      "Debe avisar al observador únicamente si el viento sobrepasa las características de la aeronave.",
+      "Siempre debe informar al observador de desviaciones del plan previsto y cambio de horario.",
+      "No debe informar al observador ya que es su obligación tener a la vista la aeronave en todo momento.",
+      "Debe informar al observador solo si llueve"
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Siempre debe informar al observador de desviaciones del plan previsto y cambio de horario.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "siempre debe informar al observador de desviaciones del plan previsto y cambio de horario. el piloto al mando de la aeronave debe informar a los observadores de cualquier desvío de la aeronave respecto a la trayectoria y horarios previstos:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5043",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 43",
+    "difficulty": "Media",
+    "question": "Se utilizan las baterías LiPo porque...",
+    "options": [
+      "Su energía por Kg. es mayor.",
+      "Su voltaje por celda es mayor.",
+      "No necesitan un control de descarga",
+      "Su energía por Kg. es mayor y su energía por volumen es menor."
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Su energía por Kg. es mayor.\" NOTA: El banco de preguntas de Droniteca.com marca como correcta la opción \"Su energía por Kg. es mayor y su energía por volumen es menor\", pero esa segunda parte es imprecisa (las LiPo no tienen menor energía por volumen). Se mantiene la respuesta de este examen, más ajustada a la realidad técnica.",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "su energía por kg. es mayor. se utilizan las baterías lipo porque...",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5044",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 44",
+    "difficulty": "Media",
+    "question": "Los procedimientos que se deben realizar una vez se haya concluido el vuelo con una aeronave no tripulada incluyen:",
+    "options": [
+      "El cambio de baterías.",
+      "La detección de posibles interferencias electromagnéticas producidas por ondas de radio.",
+      "El envío de un mensaje de fin de operación a AESA.",
+      "Los registros de la operación y el mantenimiento del UAS."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Los registros de la operación y el mantenimiento del UAS.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "los registros de la operación y el mantenimiento del uas. los procedimientos que se deben realizar una vez se haya concluido el vuelo con una aeronave no tripulada incluyen:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5045",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 45",
+    "difficulty": "Media",
+    "question": "Si el piloto a distancia evalúa que las condiciones ambientales exceden la capacidad de la aeronave no tripulada:",
+    "options": [
+      "Continuará con el vuelo, pero deberá extremar las medidas de seguridad.",
+      "Deberá abortar el vuelo.",
+      "Continuará con el vuelo, pero a una distancia máxima de operación de 80 m.",
+      "Continuará con el vuelo, pero su altura máxima de operación será de 80 m."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Deberá abortar el vuelo.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "deberá abortar el vuelo. si el piloto a distancia evalúa que las condiciones ambientales exceden la capacidad de la aeronave no tripulada:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5046",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 46",
+    "difficulty": "Media",
+    "question": "¿Cuál es la longitud máxima permitida para el cable de tracción de una aeronave no tripulada anclada?",
+    "options": [
+      "50 m.",
+      "20 m.",
+      "120 m.",
+      "200 m"
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"50 m.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "50 m. ¿cuál es la longitud máxima permitida para el cable de tracción de una aeronave no tripulada anclada?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5047",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 47",
+    "difficulty": "Media",
+    "question": "Por definición, el escenario estándar STS-02 se refiere a:",
+    "options": [
+      "Operaciones de una aeronave no tripulada en BVLOS con observadores del espacio aéreo sobre una zona terrestre controlada en un entorno altamente poblado",
+      "Operaciones de enjambre de aeronaves no tripuladas en VLOS.",
+      "Operaciones de una aeronave no tripulada en BVLOS con observadores del espacio aéreo sobre una zona terrestre controlada en un entorno poco poblado.",
+      "Operaciones de una aeronave no tripulada en VLOS sobre una zona terrestre controlada en un entorno poblado."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Operaciones de una aeronave no tripulada en BVLOS con observadores del espacio aéreo sobre una zona terrestre controlada en un entorno poco poblado.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "operaciones de una aeronave no tripulada en bvlos con observadores del espacio aéreo sobre una zona terrestre controlada en un entorno poco poblado. por definición, el escenario estándar sts-02 se refiere a:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5048",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 48",
+    "difficulty": "Media",
+    "question": "Un observador del espacio aéreo en escenario estándar STS-02 tendrá conocimiento de la posición de la aeronave:",
+    "options": [
+      "En todo momento mediante observación directa del espacio aéreo o con la ayuda de medios electrónicos.",
+      "Única y exclusivamente con ayuda de medios electrónicos",
+      "Solo cuando el piloto le pida ayuda.",
+      "En escenario estándar no está contemplado el apoyo a la operación por parte de observadores."
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"En todo momento mediante observación directa del espacio aéreo o con la ayuda de medios electrónicos.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "en todo momento mediante observación directa del espacio aéreo o con la ayuda de medios electrónicos. un observador del espacio aéreo en escenario estándar sts-02 tendrá conocimiento de la posición de la aeronave:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5049",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 49",
+    "difficulty": "Media",
+    "question": "En un giroavión, para efectuar una guiñada:",
+    "options": [
+      "Dos rotores opuestos disminuyen sus rpm y los otros dos las aumentan.",
+      "Dos rotores giran a derecha y dos a izquierda manteniendo sus rpm.",
+      "Tres rotores mantienen sus rpm y uno las aumenta.",
+      "Dos rotores mantienen sus rpm y los otros dos invierten el sentido de giro"
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Dos rotores opuestos disminuyen sus rpm y los otros dos las aumentan.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "dos rotores opuestos disminuyen sus rpm y los otros dos las aumentan. en un giroavión, para efectuar una guiñada:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5050",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 50",
+    "difficulty": "Media",
+    "question": "La aeronave no tripulada debe estar equipada con:",
+    "options": [
+      "Luces de colores rojas, blancas y verdes para asemejarse a las aeronaves tripuladas.",
+      "Al menos una luz roja, teniendo que ser esta intermitente a partir del 2 de diciembre de 2021.",
+      "Al menos una luz verde, teniendo que ser esta intermitente a partir del 2 de diciembre de 2021.",
+      "Luces naranjas intermitentes a partir del 2 de diciembre de 2021."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Al menos una luz verde, teniendo que ser esta intermitente a partir del 2 de diciembre de 2021.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "al menos una luz verde, teniendo que ser esta intermitente a partir del 2 de diciembre de 2021. la aeronave no tripulada debe estar equipada con:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5051",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 51",
+    "difficulty": "Media",
+    "question": "¿Qué partes forman el piloto automático de la aeronave no tripulada?",
+    "options": [
+      "Acelerómetros, IMU, GPS, sensores.",
+      "2 IMUS.",
+      "Acelerómetros.",
+      "Solo GNSS."
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Acelerómetros, IMU, GPS, sensores.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "acelerómetros, imu, gps, sensores. ¿qué partes forman el piloto automático de la aeronave no tripulada?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5052",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 52",
+    "difficulty": "Media",
+    "question": "El campo de visión horizontal de cada ojo es aproximadamente de:",
+    "options": [
+      "80º",
+      "60º",
+      "160º",
+      "120º"
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"160º\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "160º el campo de visión horizontal de cada ojo es aproximadamente de:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5053",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 53",
+    "difficulty": "Media",
+    "question": "Cuál de las siguientes afirmaciones sobre las baterías LiPo es correcta:",
+    "options": [
+      "Hay que descargarlas completamente para evitar el efecto memoria.",
+      "Su tensión nominal por celda es de 2V por eso se ponen en serie para alcanzar los 4V.",
+      "Si su tensión por celda baja de 3V se inutiliza",
+      "No admiten una descarga completa."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"No admiten una descarga completa.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "no admiten una descarga completa. cuál de las siguientes afirmaciones sobre las baterías lipo es correcta:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5054",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 54",
+    "difficulty": "Media",
+    "question": "¿Qué requisitos indispensables deben cumplir los medios de comunicación durante la operación?",
+    "options": [
+      "Si estás autorizado para tu operación no necesitas medios de comunicación.",
+      "Que transmitan en FM.",
+      "Que sean sólidos y eficaces.",
+      "Que sean plurales."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Que sean sólidos y eficaces.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "que sean sólidos y eficaces. ¿qué requisitos indispensables deben cumplir los medios de comunicación durante la operación?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5055",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 55",
+    "difficulty": "Media",
+    "question": "¿Cuál de las siguientes responsabilidades NO se corresponde con las de un operador de UAS que quiera operar en el escenario estándar STS-01?",
+    "options": [
+      "Garantizar que, antes de iniciar la operación, todas las personas presentes en la zona terrestre controlada han sido informadas de los riesgos de la operación, han sido informadas o formadas, según proceda, sobre las precauciones y medidas de seguridad adoptadas por el operador de UAS para su protección y han aceptado explícitamente participar en la operación.",
+      "Elaborar un manual de operaciones.",
+      "Colaborar en la redacción de las condiciones operacionales que apliquen a su zona de operación.",
+      "Definir el reparto de funciones y responsabilidades entre el operador y los proveedores de servicios externos, si procede."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Colaborar en la redacción de las condiciones operacionales que apliquen a su zona de operación.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "colaborar en la redacción de las condiciones operacionales que apliquen a su zona de operación. ¿cuál de las siguientes responsabilidades no se corresponde con las de un operador de uas que quiera operar en el escenario estándar sts-01?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5056",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 56",
+    "difficulty": "Media",
+    "question": "¿Qué sistema es indispensable en un piloto automático que forme parte de una aeronave no tripulada?",
+    "options": [
+      "El modo de vuelo sígueme.",
+      "El modo de vuelo home lock.",
+      "El gimbal.",
+      "La función de vuelta a casa (RTH)."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"La función de vuelta a casa (RTH).\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "la función de vuelta a casa (rth). ¿qué sistema es indispensable en un piloto automático que forme parte de una aeronave no tripulada?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5057",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 57",
+    "difficulty": "Media",
+    "question": "¿Cuál de las siguientes afirmaciones sobre el Fail Safe ante un fallo de la emisora, NO es correcta?",
+    "options": [
+      "Se activa automáticamente el modo sígueme.",
+      "Desciende y aterriza en el punto donde se activa el Fail Safe.",
+      "Mantiene su posición en el aire hasta recibir de nuevo la emisora.",
+      "Entra automáticamente la opción de Fail Safe y vuelve a su punto origen."
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Se activa automáticamente el modo sígueme.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "se activa automáticamente el modo sígueme. ¿cuál de las siguientes afirmaciones sobre el fail safe ante un fallo de la emisora, no es correcta?",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5058",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 58",
+    "difficulty": "Media",
+    "question": "Durante el desarrollo de una operación en escenario estándar el piloto al mando: Seleccione una:",
+    "options": [
+      "Solo podrá pilotar una aeronave a la vez, salvo que sea un enjambre ya que estos cuentan como unidad.",
+      "Solo podrá pilotar una aeronave a la vez salvo que esté anclada, situación en la que no hay límite de aeronaves al tiempo.",
+      "Podrá pilotar dos aeronaves al mismo tiempo siempre que una esté configurada en modo sígueme.",
+      "Solo podrá pilotar una aeronave a la vez"
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Solo podrá pilotar una aeronave a la vez\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "solo podrá pilotar una aeronave a la vez durante el desarrollo de una operación en escenario estándar el piloto al mando: seleccione una:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5059",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 59",
+    "difficulty": "Media",
+    "question": "Salvo en el caso de estar anclado, los medios de terminación del vuelo que la aeronave debe proporcionar al piloto deben ser:",
+    "options": [
+      "De efecto inmediato, parando los motores para terminar el vuelo lo más rápido posible con el fin de evitar riesgos.",
+      "Efectivos, impredecibles y contundentes.",
+      "Controlables manualmente por parte del piloto para evitar colisiones con cualquier aeronave, persona, objeto o animal.",
+      "Fiables, predecibles e independientes del sistema automático de control de vuelo y de orientación."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Fiables, predecibles e independientes del sistema automático de control de vuelo y de orientación.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "fiables, predecibles e independientes del sistema automático de control de vuelo y de orientación. salvo en el caso de estar anclado, los medios de terminación del vuelo que la aeronave debe proporcionar al piloto deben ser:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5060",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 60",
+    "difficulty": "Media",
+    "question": "Cuando el nivel de iluminación es muy bajo (visión escotópica):",
+    "options": [
+      "La visión se debe a los conos..",
+      "Se aprecia el ultravioleta.",
+      "Se aprecia el rojo.",
+      "La visión es monocromática."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"La visión es monocromática.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "la visión es monocromática. cuando el nivel de iluminación es muy bajo (visión escotópica):",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5061",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 61",
+    "difficulty": "Media",
+    "question": "Durante el despegue y recuperación del UAS.",
+    "options": [
+      "Solo debe estar a la vista si es BVLOS",
+      "No es necesario tener a la vista la aeronave.",
+      "La aeronave debe estar a la vista.",
+      "Solo debe estar a la vista si es VLOS."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"La aeronave debe estar a la vista.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "la aeronave debe estar a la vista. durante el despegue y recuperación del uas.",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5062",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 62",
+    "difficulty": "Media",
+    "question": "El concepto MEUH se refiere a comprobar antes del vuelo con una aeronave no tripulada los siguientes aspectos:",
+    "options": [
+      "El entorno, la meteorología, las limitaciones humanas y el UAS. Además, se recomienda el uso de listas de control o checklist para que el piloto pueda comprobar en orden cada una de las tareas que debe realizar.",
+      "El entorno, la meteorología y si la aeronave posee el distintivo de clase pegado a ella.",
+      "La meteorología y las limitaciones humanas solamente.",
+      "La meteorología solamente."
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"El entorno, la meteorología, las limitaciones humanas y el UAS. Además, se recomienda el uso de listas de control o checklist para que el piloto pueda comprobar en orden cada una de las tareas que debe realizar.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "el entorno, la meteorología, las limitaciones humanas y el uas. además, se recomienda el uso de listas de control o checklist para que el piloto pueda comprobar en orden cada una de las tareas que debe realizar. el concepto meuh se refiere a comprobar antes del vuelo con una aeronave no tripulada los siguientes aspectos:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5063",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 63",
+    "difficulty": "Media",
+    "question": "Si las hélices están muy separadas proporcionarán...",
+    "options": [
+      "Mayor estabilidad.",
+      "Menor estabilidad.",
+      "Menor velocidad.",
+      "Mayor velocidad"
+    ],
+    "answer": 0,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Mayor estabilidad.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "mayor estabilidad. si las hélices están muy separadas proporcionarán...",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5064",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 64",
+    "difficulty": "Media",
+    "question": "Los motores BLDC inrunner",
+    "options": [
+      "Dan más par motor porque tienen mayor diámetro el rotor.",
+      "Son más eficientes, pero necesitan más rpm para dar la potencia necesaria.",
+      "No necesitan reductora porque van más rápido.",
+      "Son más silenciosos porque el rotor es interior."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Son más eficientes, pero necesitan más rpm para dar la potencia necesaria.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "son más eficientes, pero necesitan más rpm para dar la potencia necesaria. los motores bldc inrunner",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5065",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 65",
+    "difficulty": "Media",
+    "question": "La altura máxima del vuelo será:",
+    "options": [
+      "En STS no hay límite de altura.",
+      "120 m. respecto del lugar de despegue.",
+      "120 m. del punto más cercano al UAS en la superficie terrestre.",
+      "80 m. respecto al punto más elevado en un radio de 150 m."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"120 m. del punto más cercano al UAS en la superficie terrestre.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "120 m. del punto más cercano al uas en la superficie terrestre. la altura máxima del vuelo será:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5066",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 66",
+    "difficulty": "Media",
+    "question": "Durante el desarrollo de la operación de vuelo en escenario estándar, el piloto al mando debera:",
+    "options": [
+      "Exceder las limitaciones y respetar las condiciones declaradas si fuera necesario para la operación.",
+      "Respetar las limitaciones y exceder las condiciones declaradas si fuera necesario para la operación.",
+      "Respetar en todo momento las limitaciones y condiciones declaradas para la operación.",
+      "Exceder las limitaciones y condiciones declaradas si fuera necesario para la operación."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Respetar en todo momento las limitaciones y condiciones declaradas para la operación.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "respetar en todo momento las limitaciones y condiciones declaradas para la operación. durante el desarrollo de la operación de vuelo en escenario estándar, el piloto al mando debera:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5067",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 67",
+    "difficulty": "Media",
+    "question": "Una aeronave no tripulada con marcado de clase C5 puede ser utilizada en los escenarios STS-01 y STS-02",
+    "options": [
+      "No, para los escenarios estándar se necesita una aeronave no tripulada con marcado de clase C4.",
+      "Sí, se puede utilizar indistintamente en ambos escenarios estándar.",
+      "No, las aeronaves no tripuladas con marcado de clase C5 sólo se pueden utilizar en el escenario estándar STS-01",
+      "No, las aeronaves no tripuladas con marcado de clase C5 sólo se pueden utilizar en el escenario estándar STS-02."
+    ],
+    "answer": 2,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"No, las aeronaves no tripuladas con marcado de clase C5 sólo se pueden utilizar en el escenario estándar STS-01\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "no, las aeronaves no tripuladas con marcado de clase c5 sólo se pueden utilizar en el escenario estándar sts-01 una aeronave no tripulada con marcado de clase c5 puede ser utilizada en los escenarios sts-01 y sts-02",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5068",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 68",
+    "difficulty": "Media",
+    "question": "Una aeronave no tripulada con marcado de clase C6 puede ser utilizada en los escenarios STS-01 y STS-02",
+    "options": [
+      "Sí, ambas se puede utilizar indistintamente en ambos escenarios",
+      "No, las aeronaves no tripuladas con marcado de clase C6 sólo se pueden utilizar en el escenario estándar STS-02.",
+      "No, para los escenarios estándar se necesita una aeronave no tripulada con marcado de clase C4.",
+      "No, las aeronaves no tripuladas con marcado de clase C6 sólo se pueden utilizar en el escenario estándar STS-01."
+    ],
+    "answer": 1,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"No, las aeronaves no tripuladas con marcado de clase C6 sólo se pueden utilizar en el escenario estándar STS-02.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "no, las aeronaves no tripuladas con marcado de clase c6 sólo se pueden utilizar en el escenario estándar sts-02. una aeronave no tripulada con marcado de clase c6 puede ser utilizada en los escenarios sts-01 y sts-02",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5069",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 69",
+    "difficulty": "Media",
+    "question": "Por definición, el escenario estándar STS-01 se refiere a:",
+    "options": [
+      "Operaciones de una aeronave no tripulada en VLOS sobre una zona terrestre controlada en un entorno despoblado.",
+      "Operaciones de enjambre de aeronaves no tripuladas en VLOS.",
+      "Operaciones de una aeronave no tripulada en BVLOS con observadores del espacio aéreo sobre una zona terrestre controlada en un entorno poco poblado.",
+      "Operaciones de una aeronave no tripulada en VLOS sobre una zona terrestre controlada en un entorno poblado."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Operaciones de una aeronave no tripulada en VLOS sobre una zona terrestre controlada en un entorno poblado.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "operaciones de una aeronave no tripulada en vlos sobre una zona terrestre controlada en un entorno poblado. por definición, el escenario estándar sts-01 se refiere a:",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q5070",
+    "theme": "Banco Examen STS 1-70",
+    "subtheme": "Pregunta 70",
+    "difficulty": "Media",
+    "question": "La etiqueta de identificación de marcado de clase C5 irá pegada en la aeronave no tripulada",
+    "options": [
+      "No, la etiqueta de identificación de clase no es obligatoria.",
+      "No, siempre debe de ir pegada en el kit de accesorios.",
+      "Las aeronaves clase C5 no llevan etiqueta de identificación de clase.",
+      "Sí, aunque también puede ir en el kit de accesorios."
+    ],
+    "answer": 3,
+    "explanation": "Respuesta marcada como correcta en el examen tipo test (Google Forms) \"Preguntas examen STS drones\": \"Sí, aunque también puede ir en el kit de accesorios.\"",
+    "source": "Examen tipo test STS drones (Google Forms, resultados con respuestas correctas)",
+    "concept": "sí, aunque también puede ir en el kit de accesorios. la etiqueta de identificación de marcado de clase c5 irá pegada en la aeronave no tripulada",
+    "examSet": "examen_sts_1_70"
+  },
+  {
+    "id": "Q6001",
+    "theme": "Meteorología",
+    "subtheme": "Visibilidad y humedad",
+    "difficulty": "Media",
+    "question": "¿Qué rango de visibilidad corresponde a la niebla según la tabla de meteoros que reducen la visibilidad?",
+    "options": [
+      "Menos de 1 km.",
+      "Entre 1 y 2 km.",
+      "Más de 2 km.",
+      "Menos de 3 km."
+    ],
+    "answer": 0,
+    "explanation": "La niebla es el meteoro que más reduce la visibilidad: menos de 1 km, con una humedad relativa del 90-100% y constituida por agua o hielo.",
+    "source": "FOR-UAS-P01-DT04 (Formación Subcategoría A2), tabla de Visibilidad — temario oficial AESA",
+    "concept": "menos de 1 km. ¿qué rango de visibilidad corresponde a la niebla según la tabla de meteoros que reducen la visibilidad?"
+  },
+  {
+    "id": "Q6002",
+    "theme": "Meteorología",
+    "subtheme": "Visibilidad y humedad",
+    "difficulty": "Media",
+    "question": "¿Qué humedad relativa está asociada a la niebla?",
+    "options": [
+      "90-100%.",
+      "80-90%.",
+      "Menos del 80%.",
+      "100% exacto, nunca menos."
+    ],
+    "answer": 0,
+    "explanation": "Según la tabla de meteoros, la niebla se asocia a una humedad relativa del 90-100%, con visibilidad inferior a 1 km y constituida por agua o hielo.",
+    "source": "FOR-UAS-P01-DT04 (Formación Subcategoría A2), tabla de Visibilidad — temario oficial AESA",
+    "concept": "90-100%. ¿qué humedad relativa está asociada a la niebla?"
+  },
+  {
+    "id": "Q6003",
+    "theme": "Meteorología",
+    "subtheme": "Visibilidad y humedad",
+    "difficulty": "Media",
+    "question": "¿Qué rango de visibilidad corresponde a la neblina?",
+    "options": [
+      "Menos de 1 km.",
+      "Entre 1 y 2 km.",
+      "Más de 2 km.",
+      "Menos de 3 km."
+    ],
+    "answer": 1,
+    "explanation": "La neblina reduce la visibilidad a un rango de 1 a 2 km, con una humedad relativa del 80-90%, y está constituida por agua o hielo (a diferencia de la niebla, que baja de 1 km).",
+    "source": "FOR-UAS-P01-DT04 (Formación Subcategoría A2), tabla de Visibilidad — temario oficial AESA",
+    "concept": "entre 1 y 2 km. ¿qué rango de visibilidad corresponde a la neblina?"
+  },
+  {
+    "id": "Q6004",
+    "theme": "Meteorología",
+    "subtheme": "Visibilidad y humedad",
+    "difficulty": "Media",
+    "question": "¿Qué humedad relativa está asociada a la neblina?",
+    "options": [
+      "90-100%.",
+      "80-90%.",
+      "Menos del 80%.",
+      "Exactamente el 100%."
+    ],
+    "answer": 1,
+    "explanation": "La neblina se asocia a una humedad relativa del 80-90%, con visibilidad entre 1 y 2 km, constituida por agua o hielo.",
+    "source": "FOR-UAS-P01-DT04 (Formación Subcategoría A2), tabla de Visibilidad — temario oficial AESA",
+    "concept": "80-90%. ¿qué humedad relativa está asociada a la neblina?"
+  },
+  {
+    "id": "Q6005",
+    "theme": "Meteorología",
+    "subtheme": "Visibilidad y humedad",
+    "difficulty": "Media",
+    "question": "¿Cuál es la diferencia principal entre niebla y neblina en cuanto a visibilidad?",
+    "options": [
+      "La niebla reduce la visibilidad por debajo de 1 km y la neblina la reduce entre 1 y 2 km.",
+      "La niebla reduce la visibilidad entre 1 y 2 km y la neblina por debajo de 1 km.",
+      "No hay diferencia, son sinónimos con el mismo rango de visibilidad.",
+      "La niebla solo afecta de noche y la neblina solo de día."
+    ],
+    "answer": 0,
+    "explanation": "La niebla es más densa y reduce la visibilidad por debajo de 1 km (humedad 90-100%), mientras que la neblina es menos densa y reduce la visibilidad entre 1 y 2 km (humedad 80-90%).",
+    "source": "FOR-UAS-P01-DT04 (Formación Subcategoría A2), tabla de Visibilidad — temario oficial AESA",
+    "concept": "la niebla reduce la visibilidad por debajo de 1 km y la neblina la reduce entre 1 y 2 km. ¿cuál es la diferencia principal entre niebla y neblina en cuanto a visibilidad?"
+  },
+  {
+    "id": "Q6006",
+    "theme": "Meteorología",
+    "subtheme": "Visibilidad y humedad",
+    "difficulty": "Media",
+    "question": "¿Qué rango de visibilidad corresponde a la calima?",
+    "options": [
+      "Menos de 1 km.",
+      "Entre 1 y 2 km.",
+      "Más de 2 km.",
+      "Exactamente 2 km, ni más ni menos."
+    ],
+    "answer": 2,
+    "explanation": "La calima reduce la visibilidad a más de 2 km, con una humedad relativa inferior al 80%, y está constituida por partículas sólidas en suspensión (a diferencia de la niebla y la neblina, que son de agua o hielo).",
+    "source": "FOR-UAS-P01-DT04 (Formación Subcategoría A2), tabla de Visibilidad — temario oficial AESA",
+    "concept": "más de 2 km. ¿qué rango de visibilidad corresponde a la calima?"
+  },
+  {
+    "id": "Q6007",
+    "theme": "Meteorología",
+    "subtheme": "Visibilidad y humedad",
+    "difficulty": "Media",
+    "question": "¿Qué humedad relativa está asociada a la calima?",
+    "options": [
+      "Más del 90%.",
+      "Entre el 80% y el 90%.",
+      "Menos del 80%.",
+      "Exactamente el 100%."
+    ],
+    "answer": 2,
+    "explanation": "La calima se asocia a una humedad relativa inferior al 80% y está formada por partículas sólidas en suspensión, con una visibilidad superior a 2 km.",
+    "source": "FOR-UAS-P01-DT04 (Formación Subcategoría A2), tabla de Visibilidad — temario oficial AESA",
+    "concept": "menos del 80%. ¿qué humedad relativa está asociada a la calima?"
+  },
+  {
+    "id": "Q6008",
+    "theme": "Meteorología",
+    "subtheme": "Visibilidad y humedad",
+    "difficulty": "Media",
+    "question": "¿De qué está constituida la calima?",
+    "options": [
+      "Agua o hielo.",
+      "Partículas sólidas.",
+      "Vapor de agua puro.",
+      "Ceniza volcánica exclusivamente."
+    ],
+    "answer": 1,
+    "explanation": "A diferencia de la niebla, la neblina, la lluvia y la llovizna (formadas por agua o hielo), la calima está constituida por partículas sólidas en suspensión (polvo, arena, contaminación, etc.).",
+    "source": "FOR-UAS-P01-DT04 (Formación Subcategoría A2), tabla de Visibilidad — temario oficial AESA",
+    "concept": "partículas sólidas. ¿de qué está constituida la calima?"
+  },
+  {
+    "id": "Q6009",
+    "theme": "Meteorología",
+    "subtheme": "Visibilidad y humedad",
+    "difficulty": "Difícil",
+    "question": "¿Qué rango de visibilidad y humedad relativa corresponden a la bruma según la tabla de meteoros?",
+    "options": [
+      "Más de 2 km de visibilidad y menos del 80% de humedad relativa.",
+      "Menos de 1 km de visibilidad y 90-100% de humedad relativa.",
+      "Entre 1 y 2 km de visibilidad y 80-90% de humedad relativa.",
+      "Menos de 3 km de visibilidad y 100% de humedad relativa."
+    ],
+    "answer": 0,
+    "explanation": "Según la tabla del temario, la bruma comparte los mismos valores que la calima: visibilidad superior a 2 km, humedad relativa inferior al 80% y constitución por partículas sólidas.",
+    "source": "FOR-UAS-P01-DT04 (Formación Subcategoría A2), tabla de Visibilidad — temario oficial AESA",
+    "concept": "más de 2 km de visibilidad y menos del 80% de humedad relativa. ¿qué rango de visibilidad y humedad relativa corresponden a la bruma según la tabla de meteoros?"
+  },
+  {
+    "id": "Q6010",
+    "theme": "Meteorología",
+    "subtheme": "Visibilidad y humedad",
+    "difficulty": "Media",
+    "question": "¿Qué humedad relativa está asociada tanto a la lluvia como a la llovizna?",
+    "options": [
+      "90-100%.",
+      "80-90%.",
+      "Menos del 80%.",
+      "100%."
+    ],
+    "answer": 3,
+    "explanation": "Tanto la lluvia como la llovizna se asocian a una humedad relativa del 100% y están constituidas por agua o hielo, aunque difieren en el rango de visibilidad (lluvia: menos de 3 km; llovizna: menos de 1 km).",
+    "source": "FOR-UAS-P01-DT04 (Formación Subcategoría A2), tabla de Visibilidad — temario oficial AESA",
+    "concept": "100%. ¿qué humedad relativa está asociada tanto a la lluvia como a la llovizna?"
+  },
+  {
+    "id": "Q6011",
+    "theme": "Meteorología",
+    "subtheme": "Visibilidad y humedad",
+    "difficulty": "Media",
+    "question": "¿Qué rango de visibilidad corresponde a la lluvia?",
+    "options": [
+      "Menos de 1 km.",
+      "Entre 1 y 2 km.",
+      "Menos de 3 km.",
+      "Más de 3 km."
+    ],
+    "answer": 2,
+    "explanation": "La lluvia reduce la visibilidad por debajo de 3 km, con una humedad relativa del 100% y constituida por agua o hielo.",
+    "source": "FOR-UAS-P01-DT04 (Formación Subcategoría A2), tabla de Visibilidad — temario oficial AESA",
+    "concept": "menos de 3 km. ¿qué rango de visibilidad corresponde a la lluvia?"
+  },
+  {
+    "id": "Q6012",
+    "theme": "Meteorología",
+    "subtheme": "Visibilidad y humedad",
+    "difficulty": "Media",
+    "question": "¿Qué rango de visibilidad corresponde a la llovizna?",
+    "options": [
+      "Menos de 1 km.",
+      "Entre 1 y 2 km.",
+      "Menos de 3 km, pero más de 1 km.",
+      "Más de 3 km."
+    ],
+    "answer": 0,
+    "explanation": "La llovizna reduce la visibilidad por debajo de 1 km (igual que la niebla), con una humedad relativa del 100% y constituida por agua o hielo.",
+    "source": "FOR-UAS-P01-DT04 (Formación Subcategoría A2), tabla de Visibilidad — temario oficial AESA",
+    "concept": "menos de 1 km. ¿qué rango de visibilidad corresponde a la llovizna?"
+  },
+  {
+    "id": "Q6013",
+    "theme": "Meteorología",
+    "subtheme": "Visibilidad y humedad",
+    "difficulty": "Media",
+    "question": "¿Cuál de los siguientes meteoros reduce la visibilidad por la presencia de partículas sólidas en suspensión, y no por agua o hielo?",
+    "options": [
+      "Niebla y neblina.",
+      "Lluvia y llovizna.",
+      "Calima y bruma.",
+      "Niebla y lluvia."
+    ],
+    "answer": 2,
+    "explanation": "Según la tabla de meteoros del temario, tanto la calima como la bruma están constituidas por partículas sólidas, a diferencia de la niebla, neblina, lluvia y llovizna, que están constituidas por agua o hielo.",
+    "source": "FOR-UAS-P01-DT04 (Formación Subcategoría A2), tabla de Visibilidad — temario oficial AESA",
+    "concept": "calima y bruma. ¿cuál de los siguientes meteoros reduce la visibilidad por la presencia de partículas sólidas en suspensión, y no por agua o hielo?"
+  },
+  {
+    "id": "Q6014",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Difícil",
+    "question": "Ordenando de menor a mayor humedad relativa asociada, ¿cuál es el orden correcto entre niebla, neblina y calima?",
+    "options": [
+      "Calima < neblina < niebla.",
+      "Niebla < neblina < calima.",
+      "Neblina < niebla < calima.",
+      "Calima < niebla < neblina."
+    ],
+    "answer": 0,
+    "explanation": "La calima se asocia a menos del 80% de humedad relativa, la neblina al 80-90% y la niebla al 90-100%, por lo que el orden ascendente es calima < neblina < niebla.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "calima < neblina < niebla. ordenando de menor a mayor humedad relativa asociada, ¿cuál es el orden correcto entre niebla, neblina y calima?"
+  },
+  {
+    "id": "Q6015",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Media",
+    "question": "¿En qué clase de espacio aéreo solo se permiten vuelos IFR?",
+    "options": [
+      "Clase A.",
+      "Clase B.",
+      "Clase C.",
+      "Clase G."
+    ],
+    "answer": 0,
+    "explanation": "El espacio aéreo clase A solo admite vuelos IFR (con separación de todas las aeronaves, servicio ATC, comunicación continua bidireccional y autorización ATC obligatoria).",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "clase a. ¿en qué clase de espacio aéreo solo se permiten vuelos ifr?"
+  },
+  {
+    "id": "Q6016",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Media",
+    "question": "¿Qué clase de espacio aéreo permite tanto vuelos VFR como IFR y proporciona separación de todas las aeronaves por parte del ATC?",
+    "options": [
+      "Clase A.",
+      "Clase B.",
+      "Clase E.",
+      "Clase G."
+    ],
+    "answer": 1,
+    "explanation": "La clase B admite vuelos VFR e IFR y el ATC proporciona separación entre todas las aeronaves, con comunicación continua bidireccional y autorización ATC obligatoria (igual que la clase A, pero admitiendo también VFR).",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "clase b. ¿qué clase de espacio aéreo permite tanto vuelos vfr como ifr y proporciona separación de todas las aeronaves por parte del atc?"
+  },
+  {
+    "id": "Q6017",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Difícil",
+    "question": "En el espacio aéreo clase C, ¿qué tipo de separación proporciona el ATC?",
+    "options": [
+      "Ninguna separación.",
+      "Solo entre aeronaves IFR.",
+      "Entre IFR/IFR, IFR/VFR y VFR/IFR.",
+      "Solo entre aeronaves VFR."
+    ],
+    "answer": 2,
+    "explanation": "En la clase C, el ATC separa IFR/IFR, IFR/VFR y VFR/IFR (es decir, protege a los vuelos IFR frente a todo el tráfico, y da tránsito a los VFR), con una limitación de 250 KIAS para VFR por debajo de 10.000 ft AMSL.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "entre ifr/ifr, ifr/vfr y vfr/ifr. en el espacio aéreo clase c, ¿qué tipo de separación proporciona el atc?"
+  },
+  {
+    "id": "Q6018",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Media",
+    "question": "¿En qué clases de espacio aéreo NO se requiere autorización ATC para volar?",
+    "options": [
+      "Clase A y B.",
+      "Clase C y D.",
+      "Clase F y G.",
+      "Clase E únicamente."
+    ],
+    "answer": 2,
+    "explanation": "Según la tabla de clases de espacio aéreo, únicamente en las clases F y G no es necesaria autorización del ATC para volar.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "clase f y g. ¿en qué clases de espacio aéreo no se requiere autorización atc para volar?"
+  },
+  {
+    "id": "Q6019",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Media",
+    "question": "¿Qué servicio proporciona el espacio aéreo clase G?",
+    "options": [
+      "Servicio ATC completo con separación de todas las aeronaves.",
+      "Servicio de información de vuelo.",
+      "Asesoramiento de tráfico e información.",
+      "ATC e información sobre vuelos VFR."
+    ],
+    "answer": 1,
+    "explanation": "La clase G, la menos restrictiva, no ofrece separación entre aeronaves; únicamente proporciona un servicio de información de vuelo y no requiere autorización ATC.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "servicio de información de vuelo. ¿qué servicio proporciona el espacio aéreo clase g?"
+  },
+  {
+    "id": "Q6020",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Media",
+    "question": "¿Qué servicio proporciona el espacio aéreo clase F?",
+    "options": [
+      "Asesoramiento de tráfico e información.",
+      "ATC con separación de todas las aeronaves.",
+      "Servicio de información de vuelo únicamente.",
+      "ATC para separación y tránsito."
+    ],
+    "answer": 0,
+    "explanation": "La clase F proporciona asesoramiento de tráfico e información, sin separación garantizada por el ATC (que sí existe en clases superiores) y sin necesidad de autorización ATC.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "asesoramiento de tráfico e información. ¿qué servicio proporciona el espacio aéreo clase f?"
+  },
+  {
+    "id": "Q6021",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Media",
+    "question": "¿Cuál es la limitación de velocidad habitual en los espacios aéreos clase C, D, E, F y G por debajo de 10.000 ft AMSL?",
+    "options": [
+      "200 KIAS.",
+      "250 KIAS.",
+      "300 KIAS.",
+      "No existe limitación de velocidad."
+    ],
+    "answer": 1,
+    "explanation": "Según la tabla de clases de espacio aéreo, la limitación de 250 KIAS por debajo de 10.000 ft AMSL se aplica en las clases C (solo VFR), D, E, F y G. No aplica en las clases A y B.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "250 kias. ¿cuál es la limitación de velocidad habitual en los espacios aéreos clase c, d, e, f y g por debajo de 10.000 ft amsl?"
+  },
+  {
+    "id": "Q6022",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Media",
+    "question": "¿En qué clase de espacio aéreo no se proporciona ningún tipo de separación entre aeronaves?",
+    "options": [
+      "Clase D.",
+      "Clase E.",
+      "Clase F.",
+      "Clase G."
+    ],
+    "answer": 3,
+    "explanation": "La clase G es la única en la que no se proporciona ningún tipo de separación entre aeronaves, ni se requiere autorización ATC; solo se ofrece un servicio de información de vuelo.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "clase g. ¿en qué clase de espacio aéreo no se proporciona ningún tipo de separación entre aeronaves?"
+  },
+  {
+    "id": "Q6023",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Difícil",
+    "question": "Según el esquema general de distribución del espacio aéreo, ¿entre qué límites se sitúa habitualmente el espacio aéreo clase A?",
+    "options": [
+      "Entre la superficie y 700 ft AGL.",
+      "Entre 18.000 ft MSL y el FL 600.",
+      "Por encima del FL 600, sin límite superior definido.",
+      "Entre 1.200 ft AGL y 14.500 ft MSL."
+    ],
+    "answer": 1,
+    "explanation": "En el esquema general de distribución del espacio aéreo, la clase A ocupa la franja entre 18.000 ft MSL y el FL 600, por encima y por debajo de la cual (hasta el límite superior sin definir) se sitúa la clase E.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "entre 18.000 ft msl y el fl 600. según el esquema general de distribución del espacio aéreo, ¿entre qué límites se sitúa habitualmente el espacio aéreo clase a?"
+  },
+  {
+    "id": "Q6024",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Difícil",
+    "question": "Según el esquema general de distribución del espacio aéreo, ¿qué clase se extiende por encima del FL 600 sin límite superior definido?",
+    "options": [
+      "Clase A.",
+      "Clase B.",
+      "Clase E.",
+      "Clase G."
+    ],
+    "answer": 2,
+    "explanation": "La clase E ocupa, de forma general, tanto la franja por encima del FL 600 (sin límite superior definido) como parte del espacio situado por debajo de los 18.000 ft MSL, a ambos lados de la clase A.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "clase e. según el esquema general de distribución del espacio aéreo, ¿qué clase se extiende por encima del fl 600 sin límite superior definido?"
+  },
+  {
+    "id": "Q6025",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Media",
+    "question": "Los aeropuertos con torre, en función del tipo de tráfico que admitan, pueden estar situados en espacio aéreo de clase:",
+    "options": [
+      "A, B o C.",
+      "B, C o D.",
+      "C, D o E.",
+      "E, F o G."
+    ],
+    "answer": 1,
+    "explanation": "Según el esquema general del espacio aéreo, los aeropuertos con torre pueden estar en espacio de clase B, C o D, dependiendo del tipo y volumen de tráfico que gestionen.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "b, c o d. los aeropuertos con torre, en función del tipo de tráfico que admitan, pueden estar situados en espacio aéreo de clase:"
+  },
+  {
+    "id": "Q6026",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Difícil",
+    "question": "En la leyenda del esquema de clases de espacio aéreo, un aeropuerto sin torre situado en espacio clase G y que SÍ dispone de procedimientos de aproximación instrumental (IAP) se representa con:",
+    "options": [
+      "Una estrella (★).",
+      "Dos estrellas (★★).",
+      "Tres estrellas (★★★).",
+      "Ningún símbolo adicional."
+    ],
+    "answer": 0,
+    "explanation": "Según la leyenda: ★ = aeropuerto sin torre en clase G con IAP; ★★ = aeropuerto sin torre en clase G sin IAP; ★★★ = aeropuerto sin torre en clase E con IAP.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "una estrella (★). en la leyenda del esquema de clases de espacio aéreo, un aeropuerto sin torre situado en espacio clase g y que sí dispone de procedimientos de aproximación instrumental (iap) se representa con:"
+  },
+  {
+    "id": "Q6027",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Difícil",
+    "question": "En la leyenda del esquema de clases de espacio aéreo, un aeropuerto sin torre situado en espacio clase E y que dispone de procedimientos de aproximación instrumental (IAP) se representa con:",
+    "options": [
+      "Una estrella (★).",
+      "Dos estrellas (★★).",
+      "Tres estrellas (★★★).",
+      "Un círculo relleno."
+    ],
+    "answer": 2,
+    "explanation": "Según la leyenda del esquema: ★★★ corresponde a un aeropuerto sin torre en espacio clase E con procedimientos de aproximación instrumental (IAP).",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "tres estrellas (★★★). en la leyenda del esquema de clases de espacio aéreo, un aeropuerto sin torre situado en espacio clase e y que dispone de procedimientos de aproximación instrumental (iap) se representa con:"
+  },
+  {
+    "id": "Q6028",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Fácil",
+    "question": "¿Qué significan las siglas IAP en el contexto de los esquemas de clases de espacio aéreo?",
+    "options": [
+      "Información Aeronáutica Publicada.",
+      "Procedimientos de Aproximación Instrumental.",
+      "Indicador de Altitud y Presión.",
+      "Identificación Aérea de Piloto."
+    ],
+    "answer": 1,
+    "explanation": "IAP son las siglas de \"Procedimientos de Aproximación Instrumental\", tal y como se indica expresamente en el esquema general de clases de espacio aéreo.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "procedimientos de aproximación instrumental. ¿qué significan las siglas iap en el contexto de los esquemas de clases de espacio aéreo?"
+  },
+  {
+    "id": "Q6029",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Difícil",
+    "question": "¿En qué clase de espacio aéreo el ATC proporciona separación e información sobre vuelos VFR, pero la comunicación continua bidireccional solo es obligatoria para IFR?",
+    "options": [
+      "Clase C.",
+      "Clase D.",
+      "Clase E.",
+      "Clase G."
+    ],
+    "answer": 2,
+    "explanation": "En la clase E, el ATC proporciona separación (IFR/IFR) e información sobre los vuelos VFR, pero solo exige comunicación continua bidireccional y autorización ATC a las aeronaves IFR.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "clase e. ¿en qué clase de espacio aéreo el atc proporciona separación e información sobre vuelos vfr, pero la comunicación continua bidireccional solo es obligatoria para ifr?"
+  },
+  {
+    "id": "Q6030",
+    "theme": "Espacio aéreo",
+    "subtheme": "Clases de espacio aéreo",
+    "difficulty": "Difícil",
+    "question": "¿Qué clases de espacio aéreo permiten tanto vuelos VFR como IFR y exigen autorización del ATC para volar?",
+    "options": [
+      "A y B.",
+      "B, C y D.",
+      "E, F y G.",
+      "Únicamente la clase A."
+    ],
+    "answer": 1,
+    "explanation": "Las clases B, C y D admiten tanto VFR como IFR y en las tres se requiere autorización ATC. La clase A también exige autorización, pero solo admite IFR; las clases E, F y G no exigen autorización general para VFR.",
+    "source": "FOR-UAS-P01-DT01_Ed.09, tabla de clases de espacio aéreo (A-G) y esquema general de distribución — temario oficial AESA",
+    "concept": "b, c y d. ¿qué clases de espacio aéreo permiten tanto vuelos vfr como ifr y exigen autorización del atc para volar?"
+  },
+  {
+    "id": "Q6101",
+    "theme": "SORA y PDRA",
+    "subtheme": "Secuencia de pasos SORA",
+    "difficulty": "Media",
+    "question": "¿Cuál es el primer paso de la metodología SORA?",
+    "options": [
+      "La documentación de la operación propuesta (ConOps).",
+      "La determinación de la clase de riesgo intrínseco en tierra (GRC).",
+      "La determinación del SAIL.",
+      "La determinación de la clase de riesgo aéreo inicial (ARC)."
+    ],
+    "answer": 0,
+    "explanation": "El Paso #1 de la metodología SORA consiste en la documentación de la operación propuesta (ConOps): recopilar y presentar la información técnica, operacional y organizativa necesaria para completar el resto de pasos.",
+    "source": "EASA Easy Access Rules for UAS, Cover Regulation to Implementing Regulation (EU) 2019/947, sección 2.2 'SORA process outline' y formulario S.4 (los 10 pasos de la metodología SORA)",
+    "concept": "la documentación de la operación propuesta (conops). ¿cuál es el primer paso de la metodología sora?"
+  },
+  {
+    "id": "Q6102",
+    "theme": "SORA y PDRA",
+    "subtheme": "Secuencia de pasos SORA",
+    "difficulty": "Difícil",
+    "question": "Según la metodología SORA, ¿qué paso se realiza inmediatamente después de determinar la clase de riesgo intrínseco en tierra (GRC), en el Paso #2?",
+    "options": [
+      "El Paso #3: determinación de la clase de riesgo final en tierra (GRC), aplicando mitigaciones.",
+      "El Paso #7: determinación del SAIL.",
+      "El Paso #9: identificación de los objetivos operacionales de seguridad (OSO).",
+      "El Paso #4: determinación de la clase de riesgo aéreo inicial (ARC)."
+    ],
+    "answer": 0,
+    "explanation": "Tras el Paso #2 (GRC intrínseco), el Paso #3 determina el GRC final aplicando las mitigaciones de riesgo en tierra oportunas (estratégicas, tácticas o de reducción del impacto). Este paso es opcional.",
+    "source": "EASA Easy Access Rules for UAS, Cover Regulation to Implementing Regulation (EU) 2019/947, sección 2.2 'SORA process outline' y formulario S.4 (los 10 pasos de la metodología SORA)",
+    "concept": "el paso #3: determinación de la clase de riesgo final en tierra (grc), aplicando mitigaciones. según la metodología sora, ¿qué paso se realiza inmediatamente después de determinar la clase de riesgo intrínseco en tierra (grc), en el paso #2?"
+  },
+  {
+    "id": "Q6103",
+    "theme": "SORA y PDRA",
+    "subtheme": "Secuencia de pasos SORA",
+    "difficulty": "Media",
+    "question": "¿En qué paso de la metodología SORA se determina el SAIL (Specific Assurance and Integrity Level)?",
+    "options": [
+      "Paso #5.",
+      "Paso #6.",
+      "Paso #7.",
+      "Paso #9."
+    ],
+    "answer": 2,
+    "explanation": "El SAIL se determina en el Paso #7, consolidando el GRC final (Paso #3) y el ARC residual (Paso #5), a partir de la tabla de determinación del SAIL.",
+    "source": "EASA Easy Access Rules for UAS, Cover Regulation to Implementing Regulation (EU) 2019/947, sección 2.2 'SORA process outline' y formulario S.4 (los 10 pasos de la metodología SORA)",
+    "concept": "paso #7. ¿en qué paso de la metodología sora se determina el sail (specific assurance and integrity level)?"
+  },
+  {
+    "id": "Q6104",
+    "theme": "SORA y PDRA",
+    "subtheme": "Secuencia de pasos SORA",
+    "difficulty": "Difícil",
+    "question": "¿Qué paso de la metodología SORA corresponde a la Fase 2 del proceso, centrada en el cumplimiento de los requisitos de seguridad derivados de la Fase 1?",
+    "options": [
+      "Paso #8.",
+      "Paso #9.",
+      "Paso #10.",
+      "Paso #1."
+    ],
+    "answer": 2,
+    "explanation": "La Fase 1 de la SORA abarca del Paso #1 al Paso #9 (derivación de los requisitos de seguridad). La Fase 2 corresponde únicamente al Paso #10, centrado en demostrar el cumplimiento de esos requisitos derivados.",
+    "source": "EASA Easy Access Rules for UAS, Cover Regulation to Implementing Regulation (EU) 2019/947, sección 2.2 'SORA process outline' y formulario S.4 (los 10 pasos de la metodología SORA)",
+    "concept": "paso #10. ¿qué paso de la metodología sora corresponde a la fase 2 del proceso, centrada en el cumplimiento de los requisitos de seguridad derivados de la fase 1?"
+  },
+  {
+    "id": "Q6105",
+    "theme": "SORA y PDRA",
+    "subtheme": "Secuencia de pasos SORA",
+    "difficulty": "Difícil",
+    "question": "¿Cuál de los siguientes pasos de la metodología SORA es opcional, y solo resulta necesario si se aplican mitigaciones de riesgo en tierra?",
+    "options": [
+      "Paso #2 (GRC intrínseco).",
+      "Paso #3 (GRC final).",
+      "Paso #7 (SAIL).",
+      "Paso #9 (OSO)."
+    ],
+    "answer": 1,
+    "explanation": "El Paso #3, determinación de la clase de riesgo final en tierra (GRC), es opcional y solo se aplica cuando se han puesto en marcha mitigaciones (estratégicas, tácticas o de reducción del impacto) que reduzcan el GRC intrínseco calculado en el Paso #2.",
+    "source": "EASA Easy Access Rules for UAS, Cover Regulation to Implementing Regulation (EU) 2019/947, sección 2.2 'SORA process outline' y formulario S.4 (los 10 pasos de la metodología SORA)",
+    "concept": "paso #3 (grc final). ¿cuál de los siguientes pasos de la metodología sora es opcional, y solo resulta necesario si se aplican mitigaciones de riesgo en tierra?"
+  },
+  {
+    "id": "Q6106",
+    "theme": "SORA y PDRA",
+    "subtheme": "Secuencia de pasos SORA",
+    "difficulty": "Muy difícil",
+    "question": "¿Cuál de las siguientes secuencias representa correctamente el orden de los pasos de la metodología SORA?",
+    "options": [
+      "1) ConOps — 2) GRC intrínseco — 3) GRC final — 4) ARC inicial — 5) ARC residual — 6) TMPR — 7) SAIL — 8) Requisitos de contención — 9) OSO — 10) Cumplimiento de requisitos (Fase 2).",
+      "1) GRC intrínseco — 2) ConOps — 3) ARC inicial — 4) GRC final — 5) SAIL — 6) TMPR — 7) OSO — 8) ARC residual — 9) Requisitos de contención — 10) Cumplimiento de requisitos.",
+      "1) SAIL — 2) OSO — 3) ConOps — 4) GRC intrínseco — 5) GRC final — 6) ARC inicial — 7) ARC residual — 8) TMPR — 9) Requisitos de contención — 10) Cumplimiento de requisitos.",
+      "1) ConOps — 2) ARC inicial — 3) ARC residual — 4) GRC intrínseco — 5) GRC final — 6) TMPR — 7) Requisitos de contención — 8) SAIL — 9) OSO — 10) Cumplimiento de requisitos."
+    ],
+    "answer": 0,
+    "explanation": "El orden oficial de la metodología SORA es: 1) ConOps, 2) GRC intrínseco, 3) GRC final (opcional), 4) ARC inicial, 5) ARC residual (tras mitigaciones estratégicas), 6) TMPR (mitigaciones tácticas), 7) SAIL, 8) requisitos de contención, 9) OSO, y 10) cumplimiento de los requisitos derivados (Fase 2).",
+    "source": "EASA Easy Access Rules for UAS, Cover Regulation to Implementing Regulation (EU) 2019/947, sección 2.2 'SORA process outline' y formulario S.4 (los 10 pasos de la metodología SORA)",
+    "concept": "1) conops — 2) grc intrínseco — 3) grc final — 4) arc inicial — 5) arc residual — 6) tmpr — 7) sail — 8) requisitos de contención — 9) oso — 10) cumplimiento de requisitos (fase 2). ¿cuál de las siguientes secuencias representa correctamente el orden de los pasos de la metodología sora?"
+  },
+  {
+    "id": "Q6107",
+    "theme": "SORA y PDRA",
+    "subtheme": "Secuencia de pasos SORA",
+    "difficulty": "Difícil",
+    "question": "¿En qué paso de la metodología SORA se aplican las mitigaciones estratégicas para obtener la clase de riesgo aéreo residual (ARC)?",
+    "options": [
+      "Paso #4.",
+      "Paso #5.",
+      "Paso #6.",
+      "Paso #8."
+    ],
+    "answer": 1,
+    "explanation": "El Paso #4 determina la clase de riesgo aéreo inicial (iARC); el Paso #5 aplica las mitigaciones estratégicas para obtener la clase de riesgo aéreo residual (ARC).",
+    "source": "EASA Easy Access Rules for UAS, Cover Regulation to Implementing Regulation (EU) 2019/947, sección 2.2 'SORA process outline' y formulario S.4 (los 10 pasos de la metodología SORA)",
+    "concept": "paso #5. ¿en qué paso de la metodología sora se aplican las mitigaciones estratégicas para obtener la clase de riesgo aéreo residual (arc)?"
+  },
+  {
+    "id": "Q6108",
+    "theme": "SORA y PDRA",
+    "subtheme": "Secuencia de pasos SORA",
+    "difficulty": "Difícil",
+    "question": "¿En qué paso de la metodología SORA se establecen los requisitos de rendimiento de las mitigaciones tácticas (TMPR)?",
+    "options": [
+      "Paso #3.",
+      "Paso #6.",
+      "Paso #7.",
+      "Paso #9."
+    ],
+    "answer": 1,
+    "explanation": "El Paso #6 establece los requisitos de rendimiento de las mitigaciones tácticas (TMPR) para reducir el riesgo residual de colisión en el aire, después de aplicar las mitigaciones estratégicas del Paso #5.",
+    "source": "EASA Easy Access Rules for UAS, Cover Regulation to Implementing Regulation (EU) 2019/947, sección 2.2 'SORA process outline' y formulario S.4 (los 10 pasos de la metodología SORA)",
+    "concept": "paso #6. ¿en qué paso de la metodología sora se establecen los requisitos de rendimiento de las mitigaciones tácticas (tmpr)?"
+  },
+  {
+    "id": "Q6031",
+    "theme": "Meteorología",
+    "subtheme": "Humedad y GNSS",
+    "difficulty": "Difícil",
+    "question": "¿Cuál de las siguientes afirmaciones sobre la humedad y la recepción de la señal GNSS es correcta?",
+    "options": [
+      "La humedad del aire afecta directamente a la precisión del GNSS, pero no a la sustentación del UAS.",
+      "La humedad del aire afecta a la densidad del aire y, por tanto, a la sustentación del UAS; la recepción del GNSS puede verse afectada por la presencia de nubes densas, no por la humedad en sí.",
+      "Ni la humedad ni la nubosidad afectan en ningún caso al UAS.",
+      "La humedad del aire y el GNSS no guardan ninguna relación con el rendimiento ni con la navegación del UAS."
+    ],
+    "answer": 1,
+    "explanation": "Según el temario, la humedad reduce la densidad del aire (el aire húmedo pesa menos que el aire seco) y esto disminuye la sustentación del UAS. La recepción de la señal GNSS, en cambio, se puede ver bloqueada por la presencia de nubes densas (factor reconocido como causa de fallo de recepción GNSS en el banco de preguntas), pero la humedad del aire por sí misma no es un factor que afecte directamente a la precisión del GNSS.",
+    "source": "_Formacion.temario.completo.Ed12.pdf (efectos de la humedad en la densidad y sustentación) y banco de preguntas STS (causas de fallo de recepción GNSS, incl. presencia de nubes)",
+    "concept": "la humedad del aire afecta a la densidad del aire y por tanto a la sustentacion del uas la recepcion del gnss puede verse afectada por la presencia de nubes densas no por la humedad en si"
   }
 ]

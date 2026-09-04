@@ -10,7 +10,7 @@ Funciona en cualquier dispositivo con navegador (móvil, tablet, ordenador) y co
 
 ## Qué contiene
 
-- **1386 preguntas tipo test**, cada una con 4 opciones, respuesta correcta, explicación y fuente citada.
+- **1495 preguntas tipo test**, cada una con 4 opciones, respuesta correcta, explicación y fuente citada.
 - **610+ conceptos únicos** — muchas preguntas son variantes parafraseadas de un mismo concepto, para practicar reconociéndolo con distintas redacciones (como en el examen real).
 - Cobertura completa de las **8 materias del temario oficial de AESA** para el examen de categoría específica (Ed. 2, 17/04/2023):
   1. Reglamentación de la aviación (categoría específica, SORA/PDRA, escenarios estándar, espacio aéreo, información aeronáutica)
@@ -22,27 +22,33 @@ Funciona en cualquier dispositivo con navegador (móvil, tablet, ordenador) y co
   7. Rendimiento de vuelo del UAS
   8. Mitigaciones técnicas y operacionales del riesgo en tierra
 - Contenido adicional de **categoría abierta (A1/A2/A3)**, **PDRA** (S01, S02, G01, G02), **LUC y clubes de aeromodelismo**, **Reglamento (UE) 2019/945** (marcado CE, evaluación de conformidad) y glosario de definiciones EASA.
-- Dos **sets de examen fijos**, seleccionables aparte para hacer un simulacro cerrado idéntico a esos bancos:
+- **Preguntas de meteorología sobre rangos de visibilidad y humedad** de niebla, neblina, calima, bruma, lluvia y llovizna, basadas en la tabla oficial del temario AESA (FOR-UAS-P01-DT04).
+- **Preguntas sobre las clases de espacio aéreo (A-G)**: vuelos permitidos, separación entre aeronaves, servicios proporcionados, requisitos de comunicación, limitaciones de velocidad y necesidad de autorización ATC, además del esquema general de distribución vertical del espacio aéreo.
+- **Preguntas sobre la secuencia de los 10 pasos de la metodología SORA** (ConOps, GRC intrínseco/final, ARC inicial/residual, TMPR, SAIL, requisitos de contención, OSO y cumplimiento en Fase 2), basadas en el proceso oficial de EASA Easy Access Rules for UAS.
+- Pregunta aclaratoria sobre la diferencia entre **humedad del aire** (afecta a la densidad y sustentación) y **nubosidad** (puede afectar a la recepción de la señal GNSS).
+- Tres **sets de examen fijos**, seleccionables aparte para hacer un simulacro cerrado idéntico a esos bancos:
   - **Banco UAS 1-52**: 52 preguntas transcritas de un banco de preguntas de estudio.
   - **Banco Droniteca 1-89**: 89 preguntas transcritas del banco de preguntas STS de Droniteca.com, con las respuestas correctas señaladas en su documento de soluciones.
+  - **Banco Examen STS 1-70**: 70 preguntas transcritas de un examen tipo test (Google Forms) ya corregido, verificando cada respuesta correcta contra el documento de resultados.
 
 ### Preguntas por tema
 
 | Tema | Preguntas |
 |---|---|
 | STS-01 | 122 |
-| Meteorología | 106 |
+| Meteorología | 120 |
+| Espacio aéreo | 105 |
 | Rendimiento y técnica | 91 |
-| Espacio aéreo | 88 |
+| Banco Droniteca 1-89 (set de examen) | 89 |
 | Emergencias y seguridad | 84 |
 | Factores humanos | 79 |
+| Banco Examen STS 1-70 (set de examen) | 70 |
 | STS (general) | 66 |
 | Formación y responsabilidades | 64 |
 | Normativa y conceptos | 60 |
-| SORA y PDRA | 59 |
+| SORA y PDRA | 67 |
 | STS-02 | 59 |
 | Banco UAS 1-52 (set de examen) | 52 |
-| Banco Droniteca 1-89 (set de examen) | 89 |
 | Mitigaciones de riesgo | 46 |
 | Categoría abierta - general | 46 |
 | Comunicaciones y observadores | 42 |
@@ -63,10 +69,10 @@ Funciona en cualquier dispositivo con navegador (móvil, tablet, ordenador) y co
 
 | Dificultad | Preguntas |
 |---|---|
-| Fácil | 201 |
-| Media | 719 |
-| Difícil | 388 |
-| Muy difícil | 78 |
+| Fácil | 202 |
+| Media | 811 |
+| Difícil | 403 |
+| Muy difícil | 79 |
 
 ## Cómo usarlo
 
@@ -76,11 +82,12 @@ Funciona en cualquier dispositivo con navegador (móvil, tablet, ordenador) y co
    - **Tema** (o "Todos")
    - **Dificultad** (o "Todas")
    - **Modo**: Normal / Repetir más falladas / No vistas
-   - **Set de examen**: "Mezcla general" (por defecto, usa todo el banco con los filtros anteriores), "Banco UAS 1-52" o "Banco Droniteca 1-89" (cada uno ignora Tema/Dificultad y te examina con ese banco fijo, barajado)
+   - **Set de examen**: "Mezcla general" (por defecto, usa todo el banco con los filtros anteriores), "Banco UAS 1-52", "Banco Droniteca 1-89" o "Banco Examen STS 1-70" (cada uno ignora Tema/Dificultad y te examina con ese banco fijo, barajado)
    - Casillas de "Evitar repetidas recientes" y "Barajar respuestas"
 3. Pulsa **Generar cuestionario**, responde, y al entregar verás el porcentaje de acierto y la explicación de cada pregunta.
-4. **Ver estadísticas** te muestra tu progreso acumulado por tema y las preguntas que más fallas.
-5. **Reiniciar estadísticas** borra tu historial local si quieres empezar de cero.
+4. Tras corregir, puedes pulsar **Descargar preguntas (TXT)** para guardar un archivo de texto con la pregunta, la respuesta correcta y la explicación de cada una de las preguntas de ese cuestionario (sin las opciones de respuesta), ideal para repasar offline.
+5. **Ver estadísticas** te muestra tu progreso acumulado por tema y las preguntas que más fallas.
+6. **Reiniciar estadísticas** borra tu historial local si quieres empezar de cero.
 
 ### Sobre las estadísticas y el progreso
 
@@ -93,7 +100,7 @@ Las estadísticas se guardan en el **almacenamiento local del navegador** (`loca
 
 ```
 drone-sts-app/
-├── index.html       # La app completa (HTML+CSS+JS), con las 1297 preguntas embebidas
+├── index.html       # La app completa (HTML+CSS+JS), con las 1495 preguntas embebidas
 ├── questions.json   # Copia del banco de preguntas en formato JSON (referencia/backup)
 └── README.md        # Este archivo
 ```
